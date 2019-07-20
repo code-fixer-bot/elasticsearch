@@ -156,5 +156,8 @@ public class ParseField {
         public static final ParseField FORMAT = new ParseField("format");
         public static final ParseField MISSING = new ParseField("missing");
         public static final ParseField TIME_ZONE = new ParseField("time_zone");
+        private CommonFields() {
+        }
+
     }
 }

@@ -86,4 +86,7 @@ public class ScoreFunctionBuilders {
     public static FieldValueFactorFunctionBuilder fieldValueFactorFunction(String fieldName) {
         return new FieldValueFactorFunctionBuilder(fieldName);
     }
+    private ScoreFunctionBuilders() {
+    }
+
 }

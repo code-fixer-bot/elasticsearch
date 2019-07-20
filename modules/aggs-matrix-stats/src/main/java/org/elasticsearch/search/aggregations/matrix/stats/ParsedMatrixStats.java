@@ -228,5 +228,8 @@ public class ParsedMatrixStats extends ParsedAggregation implements MatrixStats 
         static ParsedMatrixStatsResult fromXContent(XContentParser parser) throws IOException {
             return RESULT_PARSER.parse(parser, null);
         }
+        private ParsedMatrixStatsResult() {
+        }
+
     }
 }

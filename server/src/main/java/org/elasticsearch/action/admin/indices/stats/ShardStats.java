@@ -179,6 +179,9 @@ public class ShardStats implements Streamable, Writeable, ToXContentFragment {
         static final String PRIMARY = "primary";
         static final String NODE = "node";
         static final String RELOCATING_NODE = "relocating_node";
+        private Fields() {
+        }
+
     }
 
 }

@@ -52,4 +52,7 @@ final class Debugger {
         textifier.print(outputWriter);
         return output.toString();
     }
+    private Debugger() {
+    }
+
 }

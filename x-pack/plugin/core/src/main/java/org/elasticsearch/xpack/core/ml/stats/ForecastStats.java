@@ -29,6 +29,9 @@ public class ForecastStats implements ToXContentObject, Writeable {
         public static final String RUNTIME = "processing_time_ms";
         public static final String RECORDS = "records";
         public static final String STATUSES = "status";
+        private Fields() {
+        }
+
     }
 
     private long total;

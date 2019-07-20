@@ -233,4 +233,7 @@ final class Debug {
     private static PrintStream stderr() {
         return System.err;
     }
+    private Debug() {
+    }
+
 }

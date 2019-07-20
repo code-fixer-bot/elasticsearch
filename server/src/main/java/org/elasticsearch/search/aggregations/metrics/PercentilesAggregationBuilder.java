@@ -56,6 +56,9 @@ public class PercentilesAggregationBuilder extends LeafOnly<ValuesSource.Numeric
 
     private static class TDigestOptions {
         Double compression;
+        private TDigestOptions() {
+        }
+
     }
 
     private static final ObjectParser<TDigestOptions, Void> TDIGEST_OPTIONS_PARSER =
@@ -66,6 +69,9 @@ public class PercentilesAggregationBuilder extends LeafOnly<ValuesSource.Numeric
 
     private static class HDROptions {
         Integer numberOfSigDigits;
+        private HDROptions() {
+        }
+
     }
 
     private static final ObjectParser<HDROptions, Void> HDR_OPTIONS_PARSER =

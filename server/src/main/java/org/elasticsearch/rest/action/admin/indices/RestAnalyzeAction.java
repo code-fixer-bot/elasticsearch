@@ -45,6 +45,9 @@ public class RestAnalyzeAction extends BaseRestHandler {
         public static final ParseField EXPLAIN = new ParseField("explain");
         public static final ParseField ATTRIBUTES = new ParseField("attributes");
         public static final ParseField NORMALIZER = new ParseField("normalizer");
+        private Fields() {
+        }
+
     }
 
     public RestAnalyzeAction(Settings settings, RestController controller) {

@@ -122,6 +122,9 @@ public class SyncedFlushResponseTests extends ESTestCase {
         ObjectIntMap<String> expectedFailuresPerIndex = new ObjectIntHashMap<>();
         org.elasticsearch.action.admin.indices.flush.SyncedFlushResponse result;
         SyncedFlushResponse clientResult;
+        private TestPlan() {
+        }
+
     }
 
     TestPlan createTestPlan() throws IOException {

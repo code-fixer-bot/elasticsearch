@@ -36,4 +36,7 @@ public final class Protocol {
     public static final String SQL_TRANSLATE_DEPRECATED_REST_ENDPOINT = "/_xpack/sql/translate";
     public static final String SQL_STATS_REST_ENDPOINT = "/_sql/stats";
     public static final String SQL_STATS_DEPRECATED_REST_ENDPOINT = "/_xpack/sql/stats";
+    private Protocol() {
+    }
+
 }

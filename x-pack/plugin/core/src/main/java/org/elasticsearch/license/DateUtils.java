@@ -38,4 +38,7 @@ public class DateUtils {
             return DateFormatters.from(dateOnlyFormatter.parse(date)).toInstant().toEpochMilli();
         }
     }
+    private DateUtils() {
+    }
+
 }

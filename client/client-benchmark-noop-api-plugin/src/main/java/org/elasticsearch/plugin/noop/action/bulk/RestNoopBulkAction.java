@@ -116,5 +116,8 @@ public class RestNoopBulkAction extends BaseRestHandler {
         static final String ITEMS = "items";
         static final String ERRORS = "errors";
         static final String TOOK = "took";
+        private Fields() {
+        }
+
     }
 }

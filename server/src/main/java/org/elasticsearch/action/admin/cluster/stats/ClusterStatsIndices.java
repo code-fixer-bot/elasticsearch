@@ -121,6 +121,9 @@ public class ClusterStatsIndices implements ToXContentFragment {
 
     static final class Fields {
         static final String COUNT = "count";
+        private Fields() {
+        }
+
     }
 
     @Override
@@ -290,6 +293,9 @@ public class ClusterStatsIndices implements ToXContentFragment {
             static final String MAX = "max";
             static final String AVG = "avg";
             static final String INDEX = "index";
+            private Fields() {
+            }
+
         }
 
         private void addIntMinMax(String field, int min, int max, double avg, XContentBuilder builder) throws IOException {

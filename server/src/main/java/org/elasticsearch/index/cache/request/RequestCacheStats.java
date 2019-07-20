@@ -111,5 +111,8 @@ public class RequestCacheStats implements Streamable, Writeable, ToXContentFragm
         static final String EVICTIONS = "evictions";
         static final String HIT_COUNT = "hit_count";
         static final String MISS_COUNT = "miss_count";
+        private Fields() {
+        }
+
     }
 }

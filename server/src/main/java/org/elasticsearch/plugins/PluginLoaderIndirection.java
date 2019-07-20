@@ -31,4 +31,7 @@ class PluginLoaderIndirection {
     static ClassLoader createLoader(ClassLoader parent, List<ClassLoader> extendedLoaders) {
         return ExtendedPluginsClassLoader.create(parent, extendedLoaders);
     }
+    private PluginLoaderIndirection() {
+    }
+
 }

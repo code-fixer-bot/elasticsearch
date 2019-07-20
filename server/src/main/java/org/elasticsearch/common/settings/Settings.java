@@ -320,6 +320,9 @@ public final class Settings implements ToXContentFragment {
      */
     static class DeprecationLoggerHolder {
         static DeprecationLogger deprecationLogger = new DeprecationLogger(LogManager.getLogger(Settings.class));
+        private DeprecationLoggerHolder() {
+        }
+
     }
 
     /**

@@ -128,4 +128,7 @@ public class OldElasticsearch {
         Files.write(tmp, Integer.toString(port).getBytes(StandardCharsets.UTF_8));
         Files.move(tmp, baseDir.resolve("ports"), StandardCopyOption.ATOMIC_MOVE);
     }
+    private OldElasticsearch() {
+    }
+
 }

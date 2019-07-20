@@ -128,6 +128,9 @@ public class SnapshotShardsStats implements ToXContentObject {
         static final String DONE = "done";
         static final String FAILED = "failed";
         static final String TOTAL = "total";
+        private Fields() {
+        }
+
     }
 
     @Override

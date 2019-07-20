@@ -245,4 +245,7 @@ public class CryptUtils {
 
         return out;
     }
+    private CryptUtils() {
+    }
+
 }

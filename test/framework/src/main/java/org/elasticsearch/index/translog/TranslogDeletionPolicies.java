@@ -35,5 +35,8 @@ public class TranslogDeletionPolicies {
         return new TranslogDeletionPolicy(indexSettings.getTranslogRetentionSize().getBytes(),
                 indexSettings.getTranslogRetentionAge().getMillis());
     }
+    private TranslogDeletionPolicies() {
+    }
+
 
 }

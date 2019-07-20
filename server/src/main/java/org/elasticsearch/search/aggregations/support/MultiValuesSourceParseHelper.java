@@ -56,4 +56,7 @@ public final class MultiValuesSourceParseHelper {
             (p, c) -> MultiValuesSourceFieldConfig.PARSER.apply(scriptable, timezoneAware).parse(p, null),
             new ParseField(fieldName), ObjectParser.ValueType.OBJECT);
     }
+    private MultiValuesSourceParseHelper() {
+    }
+
 }

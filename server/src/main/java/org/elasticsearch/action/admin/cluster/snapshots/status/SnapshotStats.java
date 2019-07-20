@@ -166,6 +166,9 @@ public class SnapshotStats implements Streamable, ToXContentObject {
         static final String START_TIME_IN_MILLIS = "start_time_in_millis";
         static final String TIME_IN_MILLIS = "time_in_millis";
         static final String TIME = "time";
+        private Fields() {
+        }
+
     }
 
     @Override

@@ -236,6 +236,9 @@ public class MergeStats implements Streamable, Writeable, ToXContentFragment {
         static final String TOTAL_SIZE_IN_BYTES = "total_size_in_bytes";
         static final String TOTAL_THROTTLE_BYTES_PER_SEC_IN_BYTES = "total_auto_throttle_in_bytes";
         static final String TOTAL_THROTTLE_BYTES_PER_SEC = "total_auto_throttle";
+        private Fields() {
+        }
+
     }
 
     @Override

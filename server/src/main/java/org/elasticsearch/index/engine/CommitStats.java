@@ -124,6 +124,9 @@ public final class CommitStats implements Streamable, ToXContentFragment {
         static final String ID = "id";
         static final String COMMIT = "commit";
         static final String NUM_DOCS = "num_docs";
+        private Fields() {
+        }
+
 
     }
 

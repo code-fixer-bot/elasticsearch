@@ -171,5 +171,8 @@ public class SimulatePipelineResponse extends ActionResponse implements ToXConte
 
     static final class Fields {
         static final String DOCUMENTS = "docs";
+        private Fields() {
+        }
+
     }
 }

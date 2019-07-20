@@ -201,5 +201,8 @@ public class DatafeedJobBuilder {
         volatile long latestRecordTimeMs = -1L;
         volatile DataExtractorFactory dataExtractorFactory;
         volatile DatafeedTimingStatsReporter timingStatsReporter;
+        private Context() {
+        }
+
     }
 }

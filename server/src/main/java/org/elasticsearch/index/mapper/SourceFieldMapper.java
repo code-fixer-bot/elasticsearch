@@ -70,6 +70,9 @@ public class SourceFieldMapper extends MetadataFieldMapper {
             FIELD_TYPE.setName(NAME);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
 
     }
 

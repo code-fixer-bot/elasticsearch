@@ -28,4 +28,7 @@ public final class EngineAccess {
     public static Engine engine(IndexShard shard) {
         return shard.getEngine();
     }
+    private EngineAccess() {
+    }
+
 }

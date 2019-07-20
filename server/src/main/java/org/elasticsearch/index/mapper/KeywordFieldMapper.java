@@ -71,6 +71,9 @@ public final class KeywordFieldMapper extends FieldMapper {
 
         public static final String NULL_VALUE = null;
         public static final int IGNORE_ABOVE = Integer.MAX_VALUE;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, KeywordFieldMapper> {

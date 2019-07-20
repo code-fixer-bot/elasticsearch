@@ -22,4 +22,7 @@ package org.elasticsearch.client.ml;
 import org.elasticsearch.client.Validatable;
 
 public class MlInfoRequest implements Validatable {
+    private MlInfoRequest() {
+    }
+
 }

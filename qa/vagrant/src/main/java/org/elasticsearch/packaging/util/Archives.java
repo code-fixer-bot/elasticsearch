@@ -312,5 +312,8 @@ public class Archives {
         Platforms.onLinux(() -> sh.run("kill -SIGTERM " + pid));
         Platforms.onWindows(() -> sh.run("Get-Process -Id " + pid + " | Stop-Process -Force"));
     }
+    private Archives() {
+    }
+
 
 }

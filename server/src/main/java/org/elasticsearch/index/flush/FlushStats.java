@@ -114,6 +114,9 @@ public class FlushStats implements Streamable, Writeable, ToXContentFragment {
         static final String PERIODIC = "periodic";
         static final String TOTAL_TIME = "total_time";
         static final String TOTAL_TIME_IN_MILLIS = "total_time_in_millis";
+        private Fields() {
+        }
+
     }
 
     @Override

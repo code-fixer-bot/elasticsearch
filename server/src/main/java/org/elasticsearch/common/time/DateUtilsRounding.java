@@ -179,4 +179,7 @@ class DateUtilsRounding {
             return MIN_TOTAL_MILLIS_BY_MONTH_ARRAY[month - 1];
         }
     }
+    private DateUtilsRounding() {
+    }
+
 }

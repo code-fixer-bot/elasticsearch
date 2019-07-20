@@ -394,5 +394,8 @@ public class UpdateHelper {
         public static final String ID = "_id";
         public static final String VERSION = "_version";
         public static final String ROUTING = "_routing";
+        private ContextFields() {
+        }
+
     }
 }

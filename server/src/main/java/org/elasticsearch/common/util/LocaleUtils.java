@@ -93,4 +93,7 @@ public class LocaleUtils {
             throw new IllegalArgumentException("Locales can have at most 3 parts but got " + parts.length + ": " + Arrays.asList(parts));
         }
     }
+    private LocaleUtils() {
+    }
+
 }

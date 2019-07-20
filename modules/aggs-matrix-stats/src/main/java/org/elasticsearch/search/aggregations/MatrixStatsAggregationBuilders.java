@@ -28,4 +28,7 @@ public class MatrixStatsAggregationBuilders {
     public static MatrixStatsAggregationBuilder matrixStats(String name) {
         return new MatrixStatsAggregationBuilder(name);
     }
+    private MatrixStatsAggregationBuilders() {
+    }
+
 }

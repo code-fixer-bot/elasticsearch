@@ -113,5 +113,8 @@ class AsyncHttpResourceHelper {
             return null;
         }).when(client).performRequestAsync(eq(request), any(ResponseListener.class));
     }
+    private AsyncHttpResourceHelper() {
+    }
+
 
 }

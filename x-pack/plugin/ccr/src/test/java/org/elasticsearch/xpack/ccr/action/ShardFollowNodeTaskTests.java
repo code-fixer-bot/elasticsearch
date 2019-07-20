@@ -1071,6 +1071,9 @@ public class ShardFollowNodeTaskTests extends ESTestCase {
         private TimeValue maxRetryDelay = TimeValue.ZERO;
         private TimeValue readPollTimeout = TimeValue.ZERO;
         private Map<String, String> headers = Collections.emptyMap();
+        private ShardFollowTaskParams() {
+        }
+
     }
 
     private ShardFollowNodeTask createShardFollowTask(ShardFollowTaskParams params) {

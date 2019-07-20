@@ -54,4 +54,7 @@ public class GcNames {
         }
         return defaultName;
     }
+    private GcNames() {
+    }
+
 }

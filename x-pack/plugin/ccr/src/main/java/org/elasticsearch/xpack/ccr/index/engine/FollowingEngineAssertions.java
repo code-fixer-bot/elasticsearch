@@ -33,5 +33,8 @@ final class FollowingEngineAssertions {
         assert seqNo != SequenceNumbers.UNASSIGNED_SEQ_NO : "primary operations on a following index must have an assigned sequence number";
         return true;
     }
+    private FollowingEngineAssertions() {
+    }
+
 
 }

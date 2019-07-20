@@ -149,4 +149,7 @@ public class TestShardRouting {
                 Version.CURRENT,
                 "some_index"));
     }
+    private TestShardRouting() {
+    }
+
 }

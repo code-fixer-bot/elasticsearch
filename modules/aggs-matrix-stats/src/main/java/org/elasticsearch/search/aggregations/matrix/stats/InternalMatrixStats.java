@@ -160,6 +160,9 @@ public class InternalMatrixStats extends InternalAggregation implements MatrixSt
         public static final String KURTOSIS = "kurtosis";
         public static final String COVARIANCE = "covariance";
         public static final String CORRELATION = "correlation";
+        private Fields() {
+        }
+
     }
 
     @Override

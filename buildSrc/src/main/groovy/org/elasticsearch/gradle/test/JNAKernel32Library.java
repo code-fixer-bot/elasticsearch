@@ -8,6 +8,9 @@ public class JNAKernel32Library {
 
     private static final class Holder {
         private static final JNAKernel32Library instance = new JNAKernel32Library();
+        private Holder() {
+        }
+
     }
 
     static JNAKernel32Library getInstance() {

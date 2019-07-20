@@ -120,6 +120,9 @@ public class RecoveryStats implements ToXContentFragment, Writeable, Streamable 
         static final String CURRENT_AS_TARGET = "current_as_target";
         static final String THROTTLE_TIME = "throttle_time";
         static final String THROTTLE_TIME_IN_MILLIS = "throttle_time_in_millis";
+        private Fields() {
+        }
+
     }
 
     @Override

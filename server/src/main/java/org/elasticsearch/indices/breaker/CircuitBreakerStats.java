@@ -113,5 +113,8 @@ public class CircuitBreakerStats implements Writeable, ToXContentObject {
         static final String ESTIMATED_HUMAN = "estimated_size";
         static final String OVERHEAD = "overhead";
         static final String TRIPPED_COUNT = "tripped";
+        private Fields() {
+        }
+
     }
 }

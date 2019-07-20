@@ -130,6 +130,9 @@ public class CertificateTool extends LoggingAwareMultiCommand {
 
             PARSER.declareObjectArray(List::addAll, instanceParser, new ParseField("instances"));
         }
+        private CertificateToolParser() {
+        }
+
     }
 
 

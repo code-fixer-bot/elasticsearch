@@ -73,4 +73,7 @@ public class AuditUtil {
     public static String extractRequestId(ThreadContext threadContext) {
         return threadContext.getHeader(AUDIT_REQUEST_ID);
     }
+    private AuditUtil() {
+    }
+
 }

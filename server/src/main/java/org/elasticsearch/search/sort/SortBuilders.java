@@ -87,4 +87,7 @@ public class SortBuilders {
     public static GeoDistanceSortBuilder geoDistanceSort(String fieldName, String ... geohashes) {
         return new GeoDistanceSortBuilder(fieldName, geohashes);
     }
+    private SortBuilders() {
+    }
+
 }

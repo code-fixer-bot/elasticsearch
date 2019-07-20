@@ -408,11 +408,20 @@ public class PluginsServiceTests extends ESTestCase {
         assertThat(sortedBundles, Matchers.contains(bundle1, bundle2));
     }
 
-    public static class DummyClass1 {}
+    public static class DummyClass1 {
+        private DummyClass1() {
+        }
+}
 
-    public static class DummyClass2 {}
+    public static class DummyClass2 {
+        private DummyClass2() {
+        }
+}
 
-    public static class DummyClass3 {}
+    public static class DummyClass3 {
+        private DummyClass3() {
+        }
+}
 
     void makeJar(Path jarFile, Class... classes) throws Exception {
         try (ZipOutputStream out = new ZipOutputStream(Files.newOutputStream(jarFile))) {

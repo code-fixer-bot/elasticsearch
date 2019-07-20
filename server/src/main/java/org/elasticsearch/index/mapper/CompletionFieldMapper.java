@@ -102,6 +102,9 @@ public class CompletionFieldMapper extends FieldMapper implements ArrayValueMapp
         public static final boolean DEFAULT_PRESERVE_SEPARATORS = true;
         public static final boolean DEFAULT_POSITION_INCREMENTS = true;
         public static final int DEFAULT_MAX_INPUT_LENGTH = 50;
+        private Defaults() {
+        }
+
     }
 
     public static class Fields {
@@ -117,6 +120,9 @@ public class CompletionFieldMapper extends FieldMapper implements ArrayValueMapp
         public static final String CONTENT_FIELD_NAME_INPUT = "input";
         public static final String CONTENT_FIELD_NAME_WEIGHT = "weight";
         public static final String CONTENT_FIELD_NAME_CONTEXTS = "contexts";
+        private Fields() {
+        }
+
     }
 
     public static final Set<String> ALLOWED_CONTENT_FIELD_NAMES = Sets.newHashSet(Fields.CONTENT_FIELD_NAME_INPUT,

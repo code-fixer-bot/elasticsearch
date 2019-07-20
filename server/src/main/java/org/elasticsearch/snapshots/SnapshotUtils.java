@@ -118,4 +118,7 @@ public class SnapshotUtils {
         }
         return List.copyOf(result);
     }
+    private SnapshotUtils() {
+    }
+
 }

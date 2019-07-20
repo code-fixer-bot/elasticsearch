@@ -133,6 +133,9 @@ public class EvalQueryQuality implements ToXContentFragment, Writeable {
         double evaluationResult;
         MetricDetail optionalMetricDetails;
         List<RatedSearchHit> ratedHits = new ArrayList<>();
+        private ParsedEvalQueryQuality() {
+        }
+
     }
 
     static {

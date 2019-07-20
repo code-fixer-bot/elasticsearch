@@ -102,6 +102,9 @@ public class OsStats implements Writeable, ToXContentFragment {
 
         static final String FREE_PERCENT = "free_percent";
         static final String USED_PERCENT = "used_percent";
+        private Fields() {
+        }
+
     }
 
     @Override

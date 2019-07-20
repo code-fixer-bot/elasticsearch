@@ -29,5 +29,8 @@ public class ClientAssertions {
     public static void assertAcked(AcknowledgedResponse response) {
         assertThat(response.getClass().getSimpleName() + " failed - not acked", response.isAcknowledged(), equalTo(true));
     }
+    private ClientAssertions() {
+    }
+
 
 }

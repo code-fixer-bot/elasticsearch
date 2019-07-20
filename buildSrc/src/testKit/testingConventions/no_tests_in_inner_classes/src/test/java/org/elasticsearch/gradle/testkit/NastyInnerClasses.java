@@ -24,10 +24,16 @@ import org.junit.Test;
 public class NastyInnerClasses {
 
     public static class NamingConventionTests {
+        private NamingConventionTests() {
+        }
+
 
     }
 
     public static class NamingConventionIT {
+        private NamingConventionIT() {
+        }
+
 
     }
 
@@ -55,10 +61,16 @@ public class NastyInnerClasses {
     }
 
     private static class NonOffendingPrivateTests {
+        private NonOffendingPrivateTests() {
+        }
+
 
     }
 
     static class NonOffendingPackageTests {
+        private NonOffendingPackageTests() {
+        }
+
 
     }
 }

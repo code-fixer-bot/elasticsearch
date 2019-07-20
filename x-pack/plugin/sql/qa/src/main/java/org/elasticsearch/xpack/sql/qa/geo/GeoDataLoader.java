@@ -154,5 +154,8 @@ public class GeoDataLoader {
             return builder.toString();
         }
     }
+    private GeoDataLoader() {
+    }
+
 
 }

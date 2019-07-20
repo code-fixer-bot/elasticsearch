@@ -40,4 +40,7 @@ public class InternalUserSerializationHelper {
             User.writeTo(user, output);
         }
     }
+    private InternalUserSerializationHelper() {
+    }
+
 }

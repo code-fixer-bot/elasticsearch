@@ -56,6 +56,9 @@ public class SizeFieldMapper extends MetadataFieldMapper {
             SIZE_FIELD_TYPE.setHasDocValues(true);
             SIZE_FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     private static MappedFieldType defaultFieldType(Version indexCreated) {

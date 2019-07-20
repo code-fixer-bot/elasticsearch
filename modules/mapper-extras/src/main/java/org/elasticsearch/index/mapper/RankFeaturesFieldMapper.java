@@ -51,6 +51,9 @@ public class RankFeaturesFieldMapper extends FieldMapper {
             FIELD_TYPE.setOmitNorms(true);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, RankFeaturesFieldMapper> {

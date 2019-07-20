@@ -150,6 +150,9 @@ public class MultiTermVectorsResponse extends ActionResponse implements Iterable
         static final String _INDEX = "_index";
         static final String _TYPE = "_type";
         static final String _ID = "_id";
+        private Fields() {
+        }
+
     }
 
     @Override

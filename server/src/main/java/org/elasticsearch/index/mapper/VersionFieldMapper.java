@@ -54,6 +54,9 @@ public class VersionFieldMapper extends MetadataFieldMapper {
             FIELD_TYPE.setHasDocValues(true);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class TypeParser implements MetadataFieldMapper.TypeParser {

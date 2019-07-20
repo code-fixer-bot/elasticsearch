@@ -50,6 +50,9 @@ public class FakeStringFieldMapper extends FieldMapper {
         static {
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, FakeStringFieldMapper> {

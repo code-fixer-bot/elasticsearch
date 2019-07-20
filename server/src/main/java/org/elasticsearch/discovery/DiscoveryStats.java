@@ -65,6 +65,9 @@ public class DiscoveryStats implements Writeable, ToXContentFragment {
 
     static final class Fields {
         static final String DISCOVERY = "discovery";
+        private Fields() {
+        }
+
     }
 
     public PendingClusterStateStats getQueueStats() {

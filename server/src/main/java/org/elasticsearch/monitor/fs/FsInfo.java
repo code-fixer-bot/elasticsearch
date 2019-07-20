@@ -142,6 +142,9 @@ public class FsInfo implements Iterable<FsInfo.Path>, Writeable, ToXContentFragm
             static final String FREE_IN_BYTES = "free_in_bytes";
             static final String AVAILABLE = "available";
             static final String AVAILABLE_IN_BYTES = "available_in_bytes";
+            private Fields() {
+            }
+
         }
 
         @Override
@@ -561,5 +564,8 @@ public class FsInfo implements Iterable<FsInfo.Path>, Writeable, ToXContentFragm
         static final String AVAILABLE = "available";
         static final String AVAILABLE_IN_BYTES = "available_in_bytes";
         static final String PATH = "path";
+        private Fields() {
+        }
+
     }
 }

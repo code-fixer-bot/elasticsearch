@@ -523,4 +523,7 @@ public class Requests {
     public static SnapshotsStatusRequest snapshotsStatusRequest(String repository) {
         return new SnapshotsStatusRequest(repository);
     }
+    private Requests() {
+    }
+
 }

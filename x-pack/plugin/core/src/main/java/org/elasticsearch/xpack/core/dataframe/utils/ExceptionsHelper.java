@@ -19,4 +19,7 @@ public class ExceptionsHelper {
         }
         return obj;
     }
+    private ExceptionsHelper() {
+    }
+
 }

@@ -116,6 +116,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_5_4_0 = Version.fromString("5.4.0");
         public static final Version V_5_4_1 = Version.fromString("5.4.1");
         public static final Version CURRENT = V_5_4_1;
+        private TestReleaseBranch() {
+        }
+
     }
     public void testResolveReleasedVersionsForReleaseBranch() {
         Tuple<List<Version>, List<Version>> t = VersionUtils.resolveReleasedVersions(TestReleaseBranch.CURRENT, TestReleaseBranch.class);
@@ -141,6 +144,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_5_0_2 = Version.fromString("5.0.2");
         public static final Version V_5_1_0 = Version.fromString("5.1.0");
         public static final Version CURRENT = V_5_1_0;
+        private TestStableBranch() {
+        }
+
     }
     public void testResolveReleasedVersionsForUnreleasedStableBranch() {
         Tuple<List<Version>, List<Version>> t = VersionUtils.resolveReleasedVersions(TestStableBranch.CURRENT,
@@ -167,6 +173,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_5_4_0 = Version.fromString("5.4.0");
         public static final Version V_5_5_0 = Version.fromString("5.5.0");
         public static final Version CURRENT = V_5_5_0;
+        private TestStableBranchBehindStableBranch() {
+        }
+
     }
     public void testResolveReleasedVersionsForStableBranchBehindStableBranch() {
         Tuple<List<Version>, List<Version>> t = VersionUtils.resolveReleasedVersions(TestStableBranchBehindStableBranch.CURRENT,
@@ -192,6 +201,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_5_4_0 = Version.fromString("5.4.0");
         public static final Version V_6_0_0 = Version.fromString("6.0.0");
         public static final Version CURRENT = V_6_0_0;
+        private TestUnstableBranch() {
+        }
+
     }
 
     public void testResolveReleasedVersionsForUnstableBranch() {
@@ -216,6 +228,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_6_0_0 = Version.fromString("6.0.0");
         public static final Version V_6_0_1 = Version.fromString("6.0.1");
         public static final Version CURRENT = V_6_0_1;
+        private TestNewMajorRelease() {
+        }
+
     }
 
     public void testResolveReleasedVersionsAtNewMajorRelease() {
@@ -241,6 +256,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_6_0_1 = Version.fromString("6.0.1");
         public static final Version V_6_1_0 = Version.fromString("6.1.0");
         public static final Version CURRENT = V_6_1_0;
+        private TestVersionBumpIn6x() {
+        }
+
     }
 
     public void testResolveReleasedVersionsAtVersionBumpIn6x() {
@@ -270,6 +288,9 @@ public class VersionUtilsTests extends ESTestCase {
         public static final Version V_6_1_2 = Version.fromString("6.1.2");
         public static final Version V_6_2_0 = Version.fromString("6.2.0");
         public static final Version CURRENT = V_6_2_0;
+        private TestNewMinorBranchIn6x() {
+        }
+
     }
 
     public void testResolveReleasedVersionsAtNewMinorBranchIn6x() {

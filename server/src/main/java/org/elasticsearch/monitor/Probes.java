@@ -36,4 +36,7 @@ public class Probes {
         }
         return -1;
     }
+    private Probes() {
+    }
+
 }

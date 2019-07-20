@@ -93,4 +93,7 @@ public class CompressorFactory {
     private static BytesReference uncompress(BytesReference bytes, Compressor compressor) throws IOException {
         return Streams.readFully(compressor.streamInput(bytes.streamInput()));
     }
+    private CompressorFactory() {
+    }
+
 }

@@ -98,5 +98,8 @@ public class Maps {
         @SuppressWarnings("unchecked") final Map<K, V> map = Map.ofEntries(entries.toArray(Map.Entry[]::new));
         return map;
     }
+    private Maps() {
+    }
+
 
 }

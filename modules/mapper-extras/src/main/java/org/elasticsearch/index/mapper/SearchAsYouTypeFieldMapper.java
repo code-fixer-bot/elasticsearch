@@ -74,10 +74,10 @@ import static org.elasticsearch.index.mapper.TypeParsers.parseTextField;
  *
  * <pre>
  *     [ SearchAsYouTypeFieldMapper, SearchAsYouTypeFieldType, unmodified analysis ]
- *     ├── [ ShingleFieldMapper, ShingleFieldType, analysis wrapped with 2-shingles ]
- *     ├── ...
- *     ├── [ ShingleFieldMapper, ShingleFieldType, analysis wrapped with max_shingle_size-shingles ]
- *     └── [ PrefixFieldMapper, PrefixFieldType, analysis wrapped with max_shingle_size-shingles and edge-ngrams ]
+ *     ??? [ ShingleFieldMapper, ShingleFieldType, analysis wrapped with 2-shingles ]
+ *     ??? ...
+ *     ??? [ ShingleFieldMapper, ShingleFieldType, analysis wrapped with max_shingle_size-shingles ]
+ *     ??? [ PrefixFieldMapper, PrefixFieldType, analysis wrapped with max_shingle_size-shingles and edge-ngrams ]
  * </pre>
  */
 public class SearchAsYouTypeFieldMapper extends FieldMapper {
@@ -99,6 +99,9 @@ public class SearchAsYouTypeFieldMapper extends FieldMapper {
             FIELD_TYPE.setIndexOptions(IndexOptions.DOCS_AND_FREQS_AND_POSITIONS);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class TypeParser implements Mapper.TypeParser {

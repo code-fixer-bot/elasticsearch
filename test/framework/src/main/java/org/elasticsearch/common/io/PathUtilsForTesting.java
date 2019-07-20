@@ -42,4 +42,7 @@ public class PathUtilsForTesting {
     public static void teardown() {
         PathUtils.DEFAULT = PathUtils.ACTUAL_DEFAULT;
     }
+    private PathUtilsForTesting() {
+    }
+
 }

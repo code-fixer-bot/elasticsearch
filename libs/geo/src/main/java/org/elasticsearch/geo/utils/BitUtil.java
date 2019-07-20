@@ -72,4 +72,7 @@ public class BitUtil {  // magic numbers for bit interleaving
     public static final long flipFlop(final long b) {
         return ((b & MAGIC[6]) >>> 1) | ((b & MAGIC[0]) << 1 );
     }
+    private BitUtil() {
+    }
+
 }

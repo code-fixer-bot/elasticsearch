@@ -259,5 +259,8 @@ public class NodeIndicesStats implements Streamable, ToXContentFragment {
 
     static final class Fields {
         static final String INDICES = "indices";
+        private Fields() {
+        }
+
     }
 }

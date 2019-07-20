@@ -330,6 +330,9 @@ public class SearchStats implements Writeable, ToXContentFragment {
         static final String SUGGEST_TIME = "suggest_time";
         static final String SUGGEST_TIME_IN_MILLIS = "suggest_time_in_millis";
         static final String SUGGEST_CURRENT = "suggest_current";
+        private Fields() {
+        }
+
     }
 
     @Override

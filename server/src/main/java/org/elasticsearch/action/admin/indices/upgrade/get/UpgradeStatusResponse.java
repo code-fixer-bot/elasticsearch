@@ -181,5 +181,8 @@ public class UpgradeStatusResponse extends BroadcastResponse {
         static final String SIZE_TO_UPGRADE_ANCIENT = "size_to_upgrade_ancient";
         static final String SIZE_TO_UPGRADE_IN_BYTES = "size_to_upgrade_in_bytes";
         static final String SIZE_TO_UPGRADE_ANCIENT_IN_BYTES = "size_to_upgrade_ancient_in_bytes";
+        private Fields() {
+        }
+
     }
 }

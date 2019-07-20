@@ -31,4 +31,7 @@ public class JoinAggregationInspectionHelper {
     public static boolean hasValue(InternalChildren agg) {
         return agg.getDocCount() > 0;
     }
+    private JoinAggregationInspectionHelper() {
+    }
+
 }

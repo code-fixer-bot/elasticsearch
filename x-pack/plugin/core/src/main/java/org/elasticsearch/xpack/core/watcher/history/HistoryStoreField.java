@@ -22,4 +22,7 @@ public final class HistoryStoreField {
     public static String getHistoryIndexNameForTime(ZonedDateTime time) {
         return INDEX_PREFIX_WITH_TEMPLATE + indexTimeFormat.format(time);
     }
+    private HistoryStoreField() {
+    }
+
 }

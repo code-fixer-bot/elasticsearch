@@ -22,4 +22,7 @@ package org.elasticsearch.client.ccr;
 import org.elasticsearch.client.Validatable;
 
 public final class CcrStatsRequest implements Validatable {
+    private CcrStatsRequest() {
+    }
+
 }

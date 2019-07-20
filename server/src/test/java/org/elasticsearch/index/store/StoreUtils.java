@@ -43,4 +43,7 @@ public final class StoreUtils {
         }
         return true;
     }
+    private StoreUtils() {
+    }
+
 }

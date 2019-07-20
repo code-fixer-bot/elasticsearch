@@ -106,6 +106,9 @@ public class TextFieldMapper extends FieldMapper {
          * queries of reasonably high slop will not match across field values.
          */
         public static final int POSITION_INCREMENT_GAP = 100;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, TextFieldMapper> {

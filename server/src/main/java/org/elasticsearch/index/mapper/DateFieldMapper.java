@@ -73,6 +73,9 @@ public final class DateFieldMapper extends FieldMapper {
 
     public static class Defaults {
         public static final Explicit<Boolean> IGNORE_MALFORMED = new Explicit<>(false, false);
+        private Defaults() {
+        }
+
     }
 
     public enum Resolution {

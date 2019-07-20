@@ -80,6 +80,9 @@ public class IdFieldMapper extends MetadataFieldMapper {
             NESTED_FIELD_TYPE.setStored(false);
             NESTED_FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class TypeParser implements MetadataFieldMapper.TypeParser {

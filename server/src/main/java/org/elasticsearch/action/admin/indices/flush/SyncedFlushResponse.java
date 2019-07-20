@@ -188,6 +188,9 @@ public class SyncedFlushResponse extends ActionResponse implements ToXContentFra
         static final String SHARD = "shard";
         static final String ROUTING = "routing";
         static final String REASON = "reason";
+        private Fields() {
+        }
+
     }
 
     @Override

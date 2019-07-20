@@ -22,5 +22,8 @@ package org.elasticsearch.client.watcher;
 import org.elasticsearch.client.Validatable;
 
 public class StopWatchServiceRequest implements Validatable {
+    private StopWatchServiceRequest() {
+    }
+
 
 }

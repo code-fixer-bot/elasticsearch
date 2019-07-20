@@ -26,4 +26,7 @@ public class ClientReservedRealm {
                 return AnonymousUser.isAnonymousUsername(username, settings);
         }
     }
+    private ClientReservedRealm() {
+    }
+
 }

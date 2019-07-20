@@ -347,6 +347,9 @@ public class RecoveryState implements ToXContentFragment, Streamable, Writeable 
         static final String SOURCE_THROTTLE_TIME_IN_MILLIS = "source_throttle_time_in_millis";
         static final String TARGET_THROTTLE_TIME = "target_throttle_time";
         static final String TARGET_THROTTLE_TIME_IN_MILLIS = "target_throttle_time_in_millis";
+        private Fields() {
+        }
+
     }
 
     public static class Timer implements Writeable {

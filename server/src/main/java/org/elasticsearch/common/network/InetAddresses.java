@@ -384,4 +384,7 @@ public class InetAddresses {
             throw new IllegalArgumentException("Expected [ip/prefix] but was [" + maskedAddress + "]");
         }
     }
+    private InetAddresses() {
+    }
+
 }

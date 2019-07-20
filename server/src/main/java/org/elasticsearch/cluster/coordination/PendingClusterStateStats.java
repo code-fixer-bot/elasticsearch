@@ -83,6 +83,9 @@ public class PendingClusterStateStats implements Writeable, ToXContentFragment {
         static final String TOTAL = "total";
         static final String PENDING = "pending";
         static final String COMMITTED = "committed";
+        private Fields() {
+        }
+
     }
 
     @Override

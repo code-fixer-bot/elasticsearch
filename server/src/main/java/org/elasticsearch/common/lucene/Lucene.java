@@ -735,6 +735,9 @@ public class Lucene {
             }
             return defaultValue;
         }
+        private LenientParser() {
+        }
+
     }
 
     private static final class CommitPoint extends IndexCommit {

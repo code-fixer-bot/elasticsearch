@@ -325,5 +325,8 @@ public class IndexMetaDataUpdater extends RoutingChangesObserver.AbstractRouting
         private Set<String> removedAllocationIds = new HashSet<>(); // allocation ids that should be removed from the in-sync set
         private ShardRouting initializedPrimary = null; // primary that was initialized from unassigned
         private ShardRouting firstFailedPrimary = null; // first active primary that was failed
+        
+        private Updates() {
+        }
     }
 }

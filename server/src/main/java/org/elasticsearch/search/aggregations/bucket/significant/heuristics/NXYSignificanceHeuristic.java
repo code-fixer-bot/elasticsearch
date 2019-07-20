@@ -93,6 +93,9 @@ public abstract class NXYSignificanceHeuristic extends SignificanceHeuristic {
 
     protected static class Frequencies {
         double N00, N01, N10, N11, N0_, N1_, N_0, N_1, N;
+        private Frequencies() {
+        }
+
     }
 
     protected Frequencies computeNxys(long subsetFreq, long subsetSize, long supersetFreq, long supersetSize, String scoreFunctionName) {

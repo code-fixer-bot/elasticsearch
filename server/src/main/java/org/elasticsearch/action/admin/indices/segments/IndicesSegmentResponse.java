@@ -231,5 +231,8 @@ public class IndicesSegmentResponse extends BroadcastResponse {
         static final String RAM_TREE = "ram_tree";
         static final String DESCRIPTION = "description";
         static final String CHILDREN = "children";
+        private Fields() {
+        }
+
     }
 }

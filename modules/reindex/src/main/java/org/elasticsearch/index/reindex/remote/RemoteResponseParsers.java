@@ -94,6 +94,9 @@ final class RemoteResponseParsers {
         // Pre-2.0.0 routing come back in "fields"
         class Fields {
             String routing;
+            private Fields() {
+            }
+
         }
         ObjectParser<Fields, XContentType> fieldsParser = new ObjectParser<>("fields", Fields::new);
         HIT_PARSER.declareObject((hit, fields) -> {

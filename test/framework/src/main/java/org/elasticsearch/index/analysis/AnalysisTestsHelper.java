@@ -69,5 +69,8 @@ public class AnalysisTestsHelper {
                 analysisRegistry.buildTokenizerFactories(indexSettings),
                 analysisRegistry.buildCharFilterFactories(indexSettings));
     }
+    private AnalysisTestsHelper() {
+    }
+
 
 }

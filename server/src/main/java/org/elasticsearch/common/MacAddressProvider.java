@@ -85,6 +85,9 @@ public class MacAddressProvider {
         dummy[0] |= (byte) 0x01;
         return dummy;
     }
+    private MacAddressProvider() {
+    }
+
 
 
 }

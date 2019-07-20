@@ -139,5 +139,8 @@ public class UnusedStateRemover implements MlDataRemover {
             }
             return null;
         }
+        private JobIdExtractor() {
+        }
+
     }
 }

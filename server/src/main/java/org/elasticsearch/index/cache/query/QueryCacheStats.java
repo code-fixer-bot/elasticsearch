@@ -154,6 +154,9 @@ public class QueryCacheStats implements Streamable, Writeable, ToXContentFragmen
         static final String CACHE_SIZE = "cache_size";
         static final String CACHE_COUNT = "cache_count";
         static final String EVICTIONS = "evictions";
+        private Fields() {
+        }
+
     }
 
 }

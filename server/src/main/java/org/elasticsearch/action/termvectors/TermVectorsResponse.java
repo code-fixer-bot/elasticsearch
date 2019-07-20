@@ -76,6 +76,9 @@ public class TermVectorsResponse extends ActionResponse implements ToXContentObj
         public static final String TOOK = "took";
         public static final String TERMS = "terms";
         public static final String TERM_VECTORS = "term_vectors";
+        private FieldStrings() {
+        }
+
     }
 
     private BytesReference termVectors;

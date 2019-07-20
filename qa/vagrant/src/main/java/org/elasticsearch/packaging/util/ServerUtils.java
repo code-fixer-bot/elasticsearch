@@ -120,4 +120,7 @@ public class ServerUtils {
         return body;
 
     }
+    private ServerUtils() {
+    }
+
 }

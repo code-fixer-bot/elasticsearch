@@ -57,6 +57,9 @@ public class PeerRecoverySourceService implements IndexEventListener {
 
     public static class Actions {
         public static final String START_RECOVERY = "internal:index/shard/recovery/start_recovery";
+        private Actions() {
+        }
+
     }
 
     private final TransportService transportService;

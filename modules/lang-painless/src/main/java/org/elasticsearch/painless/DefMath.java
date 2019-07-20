@@ -1240,4 +1240,7 @@ public class DefMath {
         // null return values are not possible for our arguments.
         return MethodHandles.explicitCastArguments(target, target.type().changeReturnType(newType.returnType()));
     }
+    private DefMath() {
+    }
+
 }

@@ -26,4 +26,7 @@ public class MatrixAggregationInspectionHelper {
     public static boolean hasValue(InternalMatrixStats agg) {
         return agg.getResults() != null;
     }
+    private MatrixAggregationInspectionHelper() {
+    }
+
 }

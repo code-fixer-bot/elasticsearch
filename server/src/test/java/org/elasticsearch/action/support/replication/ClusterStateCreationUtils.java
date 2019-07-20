@@ -415,4 +415,7 @@ public class ClusterStateCreationUtils {
         strings.remove(selection);
         return selection;
     }
+    private ClusterStateCreationUtils() {
+    }
+
 }

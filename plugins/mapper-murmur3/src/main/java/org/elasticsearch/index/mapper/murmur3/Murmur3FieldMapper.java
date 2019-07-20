@@ -53,6 +53,9 @@ public class Murmur3FieldMapper extends FieldMapper {
         static {
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, Murmur3FieldMapper> {

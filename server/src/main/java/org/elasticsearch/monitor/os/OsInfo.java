@@ -114,6 +114,9 @@ public class OsInfo implements Writeable, ToXContentFragment {
         static final String REFRESH_INTERVAL_IN_MILLIS = "refresh_interval_in_millis";
         static final String AVAILABLE_PROCESSORS = "available_processors";
         static final String ALLOCATED_PROCESSORS = "allocated_processors";
+        private Fields() {
+        }
+
     }
 
     @Override

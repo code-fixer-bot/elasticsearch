@@ -129,11 +129,17 @@ public class BlobStoreIndexShardSnapshots implements Iterable<SnapshotFiles>, To
     static final class Fields {
         static final String FILES = "files";
         static final String SNAPSHOTS = "snapshots";
+        private Fields() {
+        }
+
     }
 
     static final class ParseFields {
         static final ParseField FILES = new ParseField("files");
         static final ParseField SNAPSHOTS = new ParseField("snapshots");
+        private ParseFields() {
+        }
+
     }
 
     /**

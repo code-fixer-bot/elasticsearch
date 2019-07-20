@@ -117,5 +117,8 @@ public class Netty4Utils {
     static BytesReference toBytesReference(final ByteBuf buffer, final int size) {
         return new ByteBufBytesReference(buffer, size);
     }
+    private Netty4Utils() {
+    }
+
 
 }

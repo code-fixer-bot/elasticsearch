@@ -280,6 +280,9 @@ public class IndexingStats implements Streamable, Writeable, ToXContentFragment 
         static final String IS_THROTTLED = "is_throttled";
         static final String THROTTLED_TIME_IN_MILLIS = "throttle_time_in_millis";
         static final String THROTTLED_TIME = "throttle_time";
+        private Fields() {
+        }
+
     }
 
     @Override

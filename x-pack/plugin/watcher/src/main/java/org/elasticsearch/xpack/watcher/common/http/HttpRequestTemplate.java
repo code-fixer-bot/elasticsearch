@@ -366,6 +366,9 @@ public class HttpRequestTemplate implements ToXContentObject {
             }
             return templates;
         }
+        private Parser() {
+        }
+
     }
 
     public static class Builder {

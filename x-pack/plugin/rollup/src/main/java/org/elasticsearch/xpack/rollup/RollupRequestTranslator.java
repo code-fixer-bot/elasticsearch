@@ -491,4 +491,7 @@ public class RollupRequestTranslator {
             }
         }
     }
+    private RollupRequestTranslator() {
+    }
+
 }

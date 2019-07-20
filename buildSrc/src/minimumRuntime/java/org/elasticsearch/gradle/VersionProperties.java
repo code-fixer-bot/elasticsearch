@@ -60,4 +60,7 @@ public class VersionProperties {
     public static boolean isElasticsearchSnapshot() {
         return elasticsearch.endsWith("-SNAPSHOT");
     }
+    private VersionProperties() {
+    }
+
 }

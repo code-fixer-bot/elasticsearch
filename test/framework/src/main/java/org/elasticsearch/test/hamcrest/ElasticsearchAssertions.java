@@ -734,4 +734,7 @@ public class ElasticsearchAssertions {
             assertEquals(expected, actual);
         }
     }
+    private ElasticsearchAssertions() {
+    }
+
 }

@@ -56,4 +56,7 @@ public class SamlRealmTestHelper {
             "</md:EntityDescriptor>"
         ));
     }
+    private SamlRealmTestHelper() {
+    }
+
 }

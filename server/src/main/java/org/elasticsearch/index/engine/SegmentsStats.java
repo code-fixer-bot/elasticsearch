@@ -363,6 +363,9 @@ public class SegmentsStats implements Streamable, Writeable, ToXContentFragment 
         static final String SIZE = "size";
         static final String SIZE_IN_BYTES = "size_in_bytes";
         static final String DESCRIPTION = "description";
+        private Fields() {
+        }
+
     }
 
     @Override

@@ -308,4 +308,7 @@ public class Packages {
 
         waitForElasticsearch();
     }
+    private Packages() {
+    }
+
 }

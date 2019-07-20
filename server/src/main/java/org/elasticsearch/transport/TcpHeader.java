@@ -46,4 +46,7 @@ public class TcpHeader {
         output.writeByte(status);
         output.writeInt(version.id);
     }
+    private TcpHeader() {
+    }
+
 }

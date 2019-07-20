@@ -553,6 +553,9 @@ public final class SearchHit implements Writeable, ToXContentObject, Iterable<Do
         static final String INNER_HITS = "inner_hits";
         static final String _SHARD = "_shard";
         static final String _NODE = "_node";
+        private Fields() {
+        }
+
     }
 
     @Override

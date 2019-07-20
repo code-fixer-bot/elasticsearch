@@ -51,4 +51,7 @@ public class UUIDs {
     public static SecureString randomBase64UUIDSecureString() {
         return RANDOM_UUID_GENERATOR.getBase64UUIDSecureString();
     }
+    private UUIDs() {
+    }
+
 }

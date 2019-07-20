@@ -67,11 +67,17 @@ public class BooleanFieldMapper extends FieldMapper {
             FIELD_TYPE.setSearchAnalyzer(Lucene.KEYWORD_ANALYZER);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Values {
         public static final BytesRef TRUE = new BytesRef("T");
         public static final BytesRef FALSE = new BytesRef("F");
+        private Values() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, BooleanFieldMapper> {

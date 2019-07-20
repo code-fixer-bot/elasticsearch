@@ -292,5 +292,8 @@ public class Analysis {
             throw new IllegalArgumentException(message, ioe);
         }
     }
+    private Analysis() {
+    }
+
 
 }

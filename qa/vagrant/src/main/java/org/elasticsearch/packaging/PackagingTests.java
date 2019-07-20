@@ -70,4 +70,7 @@ import org.junit.runners.Suite.SuiteClasses;
     DefaultNoJdkDebBasicTests.class,
     OssNoJdkDebBasicTests.class
 })
-public class PackagingTests {}
+public class PackagingTests {
+    private PackagingTests() {
+    }
+}

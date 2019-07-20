@@ -421,6 +421,9 @@ public abstract class Rounding implements Writeable {
             }
             return rounding;
         }
+        private Streams() {
+        }
+
 
     }
 

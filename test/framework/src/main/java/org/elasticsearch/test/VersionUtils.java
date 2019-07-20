@@ -258,4 +258,7 @@ public class VersionUtils {
         // but 7.2.0 for minimum compat
         return randomVersionBetween(random, version.minimumIndexCompatibilityVersion(), getPreviousVersion(version));
     }
+    private VersionUtils() {
+    }
+
 }

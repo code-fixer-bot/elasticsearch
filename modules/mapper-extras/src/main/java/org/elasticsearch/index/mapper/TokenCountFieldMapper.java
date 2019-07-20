@@ -47,6 +47,9 @@ public class TokenCountFieldMapper extends FieldMapper {
     public static class Defaults {
         public static final MappedFieldType FIELD_TYPE = new NumberFieldMapper.NumberFieldType(NumberFieldMapper.NumberType.INTEGER);
         public static final boolean DEFAULT_POSITION_INCREMENTS = true;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, TokenCountFieldMapper> {

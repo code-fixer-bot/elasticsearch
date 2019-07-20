@@ -440,6 +440,9 @@ public class IndexResolver {
     private static class Fields {
         final Map<String, EsField> hierarchicalMapping = new TreeMap<>();
         final Map<String, EsField> flattedMapping = new LinkedHashMap<>();
+        private Fields() {
+        }
+
     }
 
     /**

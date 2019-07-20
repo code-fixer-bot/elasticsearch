@@ -92,4 +92,7 @@ public class RandomQueryBuilder {
         }
         return multiTermQueryBuilder;
     }
+    private RandomQueryBuilder() {
+    }
+
 }

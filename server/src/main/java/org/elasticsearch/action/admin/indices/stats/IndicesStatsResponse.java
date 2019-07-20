@@ -189,6 +189,9 @@ public class IndicesStatsResponse extends BroadcastResponse {
     static final class Fields {
         static final String INDICES = "indices";
         static final String SHARDS = "shards";
+        private Fields() {
+        }
+
     }
 
     @Override

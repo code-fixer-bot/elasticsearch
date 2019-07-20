@@ -103,6 +103,9 @@ public final class FlatObjectFieldMapper extends DynamicKeyFieldMapper {
 
         public static final int DEPTH_LIMIT = 20;
         public static final int IGNORE_ABOVE = Integer.MAX_VALUE;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, FlatObjectFieldMapper> {

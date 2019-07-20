@@ -93,6 +93,9 @@ public class PeerRecoveryTargetService implements IndexEventListener {
         public static final String PREPARE_TRANSLOG = "internal:index/shard/recovery/prepare_translog";
         public static final String FINALIZE = "internal:index/shard/recovery/finalize";
         public static final String HANDOFF_PRIMARY_CONTEXT = "internal:index/shard/recovery/handoff_primary_context";
+        private Actions() {
+        }
+
     }
 
     private final ThreadPool threadPool;

@@ -264,4 +264,7 @@ public class LoggerMessageFormat {
         }
         sbuf.append(']');
     }
+    private LoggerMessageFormat() {
+    }
+
 }

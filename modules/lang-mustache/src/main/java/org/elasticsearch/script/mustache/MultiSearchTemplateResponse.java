@@ -183,6 +183,9 @@ public class MultiSearchTemplateResponse extends ActionResponse implements Itera
 
     static final class Fields {
         static final String RESPONSES = "responses";
+        private Fields() {
+        }
+
     }
     
     public static MultiSearchTemplateResponse fromXContext(XContentParser parser) {

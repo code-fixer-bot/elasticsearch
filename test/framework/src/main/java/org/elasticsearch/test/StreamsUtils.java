@@ -58,5 +58,8 @@ public class StreamsUtils {
             }
         }
     }
+    private StreamsUtils() {
+    }
+
 
 }

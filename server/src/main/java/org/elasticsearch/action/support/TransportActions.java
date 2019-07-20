@@ -45,5 +45,8 @@ public class TransportActions {
     public static boolean isReadOverrideException(Exception e) {
         return !isShardNotAvailableException(e);
     }
+    private TransportActions() {
+    }
+
 
 }

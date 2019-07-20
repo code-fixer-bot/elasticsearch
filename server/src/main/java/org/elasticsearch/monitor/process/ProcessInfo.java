@@ -79,6 +79,9 @@ public class ProcessInfo implements Writeable, ToXContentFragment {
         static final String REFRESH_INTERVAL_IN_MILLIS = "refresh_interval_in_millis";
         static final String ID = "id";
         static final String MLOCKALL = "mlockall";
+        private Fields() {
+        }
+
     }
 
     @Override

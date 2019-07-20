@@ -459,6 +459,9 @@ public class InternalOrder extends BucketOrder {
         public static void writeHistogramOrder(BucketOrder order, StreamOutput out) throws IOException {
             order.writeTo(out);
         }
+        private Streams() {
+        }
+
     }
 
     /**
@@ -508,6 +511,9 @@ public class InternalOrder extends BucketOrder {
                     return aggregation(orderKey, orderAsc);
             }
         }
+        private Parser() {
+        }
+
     }
 
     @Override

@@ -31,4 +31,7 @@ public class RoutingNodesUtils {
         }
         return count;
     }
+    private RoutingNodesUtils() {
+    }
+
 }

@@ -124,4 +124,7 @@ public class RollupField {
     public static String formatIndexerAggName(String field, String agg) {
         return field + "." + agg;
     }
+    private RollupField() {
+    }
+
 }

@@ -23,4 +23,7 @@ public class StaticTestObject {
     public static int staticAddIntsTest(int x, int y) {
         return x + y;
     }
+    private StaticTestObject() {
+    }
+
 }

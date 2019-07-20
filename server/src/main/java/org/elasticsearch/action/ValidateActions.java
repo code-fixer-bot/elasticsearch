@@ -28,4 +28,7 @@ public class ValidateActions {
         validationException.addValidationError(error);
         return validationException;
     }
+    private ValidateActions() {
+    }
+
 }

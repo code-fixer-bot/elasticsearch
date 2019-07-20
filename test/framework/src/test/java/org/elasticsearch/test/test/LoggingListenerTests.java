@@ -192,6 +192,9 @@ public class LoggingListenerTests extends ESTestCase {
      */
     @TestLogging("abc:WARN,foo:WARN,foo.bar:ERROR")
     public static class AnnotatedTestClass {
+        private AnnotatedTestClass() {
+        }
+
 
     }
 
@@ -220,6 +223,9 @@ public class LoggingListenerTests extends ESTestCase {
      */
     @TestLogging("abc")
     public static class InvalidClass {
+        private InvalidClass() {
+        }
+
 
     }
 

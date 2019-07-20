@@ -172,5 +172,8 @@ public class CcrRetentionLeases {
         final RetentionLeaseActions.RemoveRequest request = new RetentionLeaseActions.RemoveRequest(leaderShardId, retentionLeaseId);
         remoteClient.execute(RetentionLeaseActions.Remove.INSTANCE, request, listener);
     }
+    private CcrRetentionLeases() {
+    }
+
 
 }

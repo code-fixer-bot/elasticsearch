@@ -114,5 +114,8 @@ public final class MessageDigests {
         }
         return result;
     }
+    private MessageDigests() {
+    }
+
 
 }

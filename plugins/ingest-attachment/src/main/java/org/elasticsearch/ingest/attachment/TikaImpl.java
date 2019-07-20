@@ -190,4 +190,7 @@ final class TikaImpl {
             throw new RuntimeException(bogus);
         }
     }
+    private TikaImpl() {
+    }
+
 }

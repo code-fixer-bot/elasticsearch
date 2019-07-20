@@ -19,5 +19,8 @@
 package org.elasticsearch.gradle.testkit;
 
 public class NamingConventionTests {
+    private NamingConventionTests() {
+    }
+
 
 }

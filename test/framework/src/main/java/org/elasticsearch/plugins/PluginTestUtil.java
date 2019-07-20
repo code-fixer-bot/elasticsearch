@@ -44,4 +44,7 @@ public class PluginTestUtil {
             properties.store(out, "");
         }
     }
+    private PluginTestUtil() {
+    }
+
 }

@@ -136,6 +136,9 @@ public class ClusterStatsNodes implements ToXContentFragment {
         static final String FS = "fs";
         static final String PLUGINS = "plugins";
         static final String NETWORK_TYPES = "network_types";
+        private Fields() {
+        }
+
     }
 
     @Override
@@ -220,6 +223,9 @@ public class ClusterStatsNodes implements ToXContentFragment {
 
         static final class Fields {
             static final String TOTAL = "total";
+            private Fields() {
+            }
+
         }
 
         @Override
@@ -299,6 +305,9 @@ public class ClusterStatsNodes implements ToXContentFragment {
             static final String PRETTY_NAME = "pretty_name";
             static final String PRETTY_NAMES = "pretty_names";
             static final String COUNT = "count";
+            private Fields() {
+            }
+
         }
 
         @Override
@@ -412,6 +421,9 @@ public class ClusterStatsNodes implements ToXContentFragment {
             static final String MIN = "min";
             static final String MAX = "max";
             static final String AVG = "avg";
+            private Fields() {
+            }
+
         }
 
         @Override
@@ -519,6 +531,9 @@ public class ClusterStatsNodes implements ToXContentFragment {
             static final String HEAP_USED_IN_BYTES = "heap_used_in_bytes";
             static final String HEAP_MAX = "heap_max";
             static final String HEAP_MAX_IN_BYTES = "heap_max_in_bytes";
+            private Fields() {
+            }
+
         }
 
         @Override

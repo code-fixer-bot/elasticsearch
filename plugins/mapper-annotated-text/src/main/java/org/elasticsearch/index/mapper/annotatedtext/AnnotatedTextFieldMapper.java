@@ -94,6 +94,9 @@ public class AnnotatedTextFieldMapper extends FieldMapper {
         static {
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, AnnotatedTextFieldMapper> {

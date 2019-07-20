@@ -34,4 +34,7 @@ public class CollectionAssertions {
     public static Matcher<ImmutableOpenMap> hasAllKeys(final String... keys) {
         return new CollectionMatchers.ImmutableOpenMapHasAllKeysMatcher(keys);
     }
+    private CollectionAssertions() {
+    }
+
 }

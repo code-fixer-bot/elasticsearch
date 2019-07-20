@@ -244,4 +244,7 @@ public class RandomQueryGenerator {
 
         return q;
     }
+    private RandomQueryGenerator() {
+    }
+
 }

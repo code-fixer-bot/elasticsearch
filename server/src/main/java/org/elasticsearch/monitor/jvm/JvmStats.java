@@ -305,6 +305,9 @@ public class JvmStats implements Writeable, ToXContentFragment {
         static final String CURRENT_LOADED_COUNT = "current_loaded_count";
         static final String TOTAL_LOADED_COUNT = "total_loaded_count";
         static final String TOTAL_UNLOADED_COUNT = "total_unloaded_count";
+        private Fields() {
+        }
+
     }
 
     public static class GarbageCollectors implements Writeable, Iterable<GarbageCollector> {

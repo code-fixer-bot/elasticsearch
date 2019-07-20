@@ -296,6 +296,9 @@ public class NodeEnvironmentTests extends ESTestCase {
     public void testStressShardLock() throws IOException, InterruptedException {
         class Int {
             int value = 0;
+            private Int() {
+            }
+
         }
         final NodeEnvironment env = newNodeEnvironment();
         final int shards = randomIntBetween(2, 10);

@@ -324,6 +324,9 @@ public final class Role {
             MONITOR_WATCHER, MONITOR_ROLLUP, MANAGE, MANAGE_DATA_FRAME_TRANSFORMS,
             MANAGE_ML, MANAGE_WATCHER, MANAGE_ROLLUP, MANAGE_INDEX_TEMPLATES, MANAGE_INGEST_PIPELINES, TRANSPORT_CLIENT,
             MANAGE_SECURITY, MANAGE_SAML, MANAGE_OIDC, MANAGE_TOKEN, MANAGE_PIPELINE, MANAGE_CCR, READ_CCR, MANAGE_ILM, READ_ILM};
+        private ClusterPrivilegeName() {
+        }
+
     }
 
     /**
@@ -347,6 +350,9 @@ public final class Role {
         public static final String MANAGE_ILM = "manage_ilm";
         public static final String[] ALL_ARRAY = new String[] { NONE, ALL, READ, READ_CROSS, CREATE, INDEX, DELETE, WRITE, MONITOR, MANAGE,
                 DELETE_INDEX, CREATE_INDEX, VIEW_INDEX_METADATA, MANAGE_FOLLOW_INDEX, MANAGE_ILM };
+        private IndexPrivilegeName() {
+        }
+
     }
 
 }

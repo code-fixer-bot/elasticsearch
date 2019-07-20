@@ -50,6 +50,9 @@ public class SyncedFlushUnitTests extends ESTestCase {
         public Map<String, SyncedFlushResponse.ShardCounts> countsPerIndex = new HashMap<>();
         public ObjectIntMap<String> expectedFailuresPerIndex = new ObjectIntHashMap<>();
         public SyncedFlushResponse result;
+        private TestPlan() {
+        }
+
     }
 
     public void testIndicesSyncedFlushResult() throws IOException {

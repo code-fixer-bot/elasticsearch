@@ -55,5 +55,8 @@ public final class TimeUtil {
         throw new IllegalArgumentException(
             "unexpected token [" + parser.currentToken() + "] for [" + fieldName + "]");
     }
+    private TimeUtil() {
+    }
+
 
 }

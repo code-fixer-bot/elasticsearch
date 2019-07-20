@@ -54,6 +54,9 @@ public class ObjectMapper extends Mapper implements Cloneable {
         public static final boolean ENABLED = true;
         public static final Nested NESTED = Nested.NO;
         public static final Dynamic DYNAMIC = null; // not set, inherited from root
+        
+        private Defaults() {
+        }
     }
 
     public enum Dynamic {

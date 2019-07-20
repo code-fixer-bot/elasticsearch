@@ -47,4 +47,7 @@ public class StackTraceElements {
 
         return new StackTraceElement(implementation.getName(), "class", fileName, lineNumber);
     }
+    private StackTraceElements() {
+    }
+
 }

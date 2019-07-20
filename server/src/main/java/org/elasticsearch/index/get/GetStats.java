@@ -141,6 +141,9 @@ public class GetStats implements Streamable, Writeable, ToXContentFragment {
         static final String MISSING_TIME = "missing_time";
         static final String MISSING_TIME_IN_MILLIS = "missing_time_in_millis";
         static final String CURRENT = "current";
+        private Fields() {
+        }
+
     }
 
     @Override

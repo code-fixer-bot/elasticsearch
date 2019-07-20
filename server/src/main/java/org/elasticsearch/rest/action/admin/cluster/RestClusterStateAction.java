@@ -131,6 +131,9 @@ public class RestClusterStateAction extends BaseRestHandler {
     static final class Fields {
         static final String WAIT_FOR_TIMED_OUT = "wait_for_timed_out";
         static final String CLUSTER_NAME = "cluster_name";
+        private Fields() {
+        }
+
     }
 
 }

@@ -1728,4 +1728,7 @@ public class DateFormatters {
     private static LocalDate getFirstOfMonth(TemporalAccessor accessor) {
         return LocalDate.of(accessor.get(ChronoField.YEAR), accessor.get(MONTH_OF_YEAR), 1);
     }
+    private DateFormatters() {
+    }
+
 }

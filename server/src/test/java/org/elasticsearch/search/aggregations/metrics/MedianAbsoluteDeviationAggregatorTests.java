@@ -271,6 +271,9 @@ public class MedianAbsoluteDeviationAggregatorTests extends AggregatorTestCase {
             }
             return median;
         }
+        private ExactMedianAbsoluteDeviation() {
+        }
+
 
     }
 }

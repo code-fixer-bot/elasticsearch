@@ -40,6 +40,9 @@ public class RegexProcessor implements Processor {
 
             return Pattern.compile(pattern).matcher(value.toString()).matches();
         }
+        private RegexOperation() {
+        }
+
     }
 
     public static final String NAME = "rgx";

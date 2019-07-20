@@ -328,4 +328,7 @@ public class JdbcAssert {
 
         return columnType;
     }
+    private JdbcAssert() {
+    }
+
 }

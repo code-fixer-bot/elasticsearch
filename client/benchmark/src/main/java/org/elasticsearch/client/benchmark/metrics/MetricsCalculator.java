@@ -87,4 +87,7 @@ public final class MetricsCalculator {
     private static double calculateThroughput(int sampleSize, double duration) {
         return sampleSize * (TimeUnit.SECONDS.toNanos(1L) / duration);
     }
+    private MetricsCalculator() {
+    }
+
 }

@@ -568,4 +568,7 @@ public class RollupResponseTranslator {
 
         return -1;
     }
+    private RollupResponseTranslator() {
+    }
+
 }

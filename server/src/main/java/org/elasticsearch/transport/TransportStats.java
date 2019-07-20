@@ -123,5 +123,8 @@ public class TransportStats implements Writeable, ToXContentFragment {
         static final String TX_COUNT = "tx_count";
         static final String TX_SIZE = "tx_size";
         static final String TX_SIZE_IN_BYTES = "tx_size_in_bytes";
+        private Fields() {
+        }
+
     }
 }

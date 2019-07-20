@@ -134,4 +134,7 @@ class IndexerUtils {
         // Go back through and remove all empty counts
         emptyCounts.forEach(m -> doc.remove(m.replace(RollupField.COUNT_FIELD, RollupField.VALUE)));
     }
+    private IndexerUtils() {
+    }
+
 }

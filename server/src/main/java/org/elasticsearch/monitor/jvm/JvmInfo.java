@@ -552,6 +552,9 @@ public class JvmInfo implements Writeable, ToXContentFragment {
         static final String MEMORY_POOLS = "memory_pools";
         static final String USING_COMPRESSED_OOPS = "using_compressed_ordinary_object_pointers";
         static final String INPUT_ARGUMENTS = "input_arguments";
+        private Fields() {
+        }
+
     }
 
     public static class Mem implements Writeable {

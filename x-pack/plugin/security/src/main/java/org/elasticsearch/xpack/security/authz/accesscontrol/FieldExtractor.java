@@ -106,4 +106,7 @@ class FieldExtractor {
             throw new UnsupportedOperationException(); // we don't know how to get the fields from it
         }
     }
+    private FieldExtractor() {
+    }
+
 }

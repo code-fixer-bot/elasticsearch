@@ -59,6 +59,9 @@ public class RoutingFieldMapper extends MetadataFieldMapper {
         }
 
         public static final boolean REQUIRED = false;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends MetadataFieldMapper.Builder<Builder, RoutingFieldMapper> {

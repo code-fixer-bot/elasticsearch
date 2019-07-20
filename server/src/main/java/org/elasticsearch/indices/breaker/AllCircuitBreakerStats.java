@@ -74,5 +74,8 @@ public class AllCircuitBreakerStats implements Writeable, ToXContentFragment {
 
     static final class Fields {
         static final String BREAKERS = "breakers";
+        private Fields() {
+        }
+
     }
 }

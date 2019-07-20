@@ -107,6 +107,9 @@ public class SnapshotIndexStatus implements Iterable<SnapshotIndexShardStatus>, 
 
     static final class Fields {
         static final String SHARDS = "shards";
+        private Fields() {
+        }
+
     }
 
     @Override

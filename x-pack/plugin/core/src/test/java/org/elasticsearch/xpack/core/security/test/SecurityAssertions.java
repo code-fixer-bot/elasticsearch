@@ -23,4 +23,7 @@ public class SecurityAssertions {
         assertThat(e.getHeader("WWW-Authenticate"), notNullValue());
         assertThat(e.getHeader("WWW-Authenticate"), contains("Basic realm=\"" + XPackField.SECURITY + "\" charset=\"UTF-8\""));
     }
+    private SecurityAssertions() {
+    }
+
 }

@@ -39,5 +39,8 @@ public final class CommandLoggingConfigurator {
         final Settings settings = Settings.builder().put("logger.level", loggerLevel).build();
         LogConfigurator.configureWithoutConfig(settings);
     }
+    private CommandLoggingConfigurator() {
+    }
+
 
 }

@@ -76,6 +76,9 @@ public class TransportInfo implements Writeable, ToXContentFragment {
         static final String BOUND_ADDRESS = "bound_address";
         static final String PUBLISH_ADDRESS = "publish_address";
         static final String PROFILES = "profiles";
+        private Fields() {
+        }
+
     }
 
     @Override

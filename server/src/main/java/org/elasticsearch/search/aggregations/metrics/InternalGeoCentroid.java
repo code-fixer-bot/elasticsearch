@@ -163,6 +163,9 @@ public class InternalGeoCentroid extends InternalAggregation implements GeoCentr
         static final ParseField COUNT = new ParseField("count");
         static final ParseField CENTROID_LAT = new ParseField("lat");
         static final ParseField CENTROID_LON = new ParseField("lon");
+        private Fields() {
+        }
+
     }
 
     @Override

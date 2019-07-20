@@ -57,4 +57,7 @@ public class LicenseUtils {
         assert License.VERSION_CRYPTO_ALGORITHMS == License.VERSION_CURRENT : "update this method when adding a new version";
         return License.VERSION_CRYPTO_ALGORITHMS;
     }
+    private LicenseUtils() {
+    }
+
 }

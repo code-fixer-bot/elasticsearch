@@ -56,6 +56,9 @@ public class RankFeatureMetaFieldMapper extends MetadataFieldMapper {
             FIELD_TYPE.setName(NAME);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends MetadataFieldMapper.Builder<Builder, RankFeatureMetaFieldMapper> {

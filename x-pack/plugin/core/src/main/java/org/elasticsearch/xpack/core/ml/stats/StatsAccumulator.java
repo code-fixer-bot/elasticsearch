@@ -25,6 +25,9 @@ public class StatsAccumulator implements Writeable {
         public static final String MAX = "max";
         public static final String AVG = "avg";
         public static final String TOTAL = "total";
+        private Fields() {
+        }
+
     }
     
     private long count;

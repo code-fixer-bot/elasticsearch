@@ -83,6 +83,9 @@ public class ThreadPool implements Scheduler, Closeable {
         public static final String FORCE_MERGE = "force_merge";
         public static final String FETCH_SHARD_STARTED = "fetch_shard_started";
         public static final String FETCH_SHARD_STORE = "fetch_shard_store";
+        private Names() {
+        }
+
     }
 
     public enum ThreadPoolType {

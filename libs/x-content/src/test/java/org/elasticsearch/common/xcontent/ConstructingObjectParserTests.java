@@ -199,6 +199,9 @@ public class ConstructingObjectParserTests extends ESTestCase {
 
     public void testConstructorArgsMustBeConfigured() throws IOException {
         class NoConstructorArgs {
+            private NoConstructorArgs() {
+            }
+
         }
         ConstructingObjectParser<NoConstructorArgs, Void> parser = new ConstructingObjectParser<>(
                 "constructor_args_required", (a) -> new NoConstructorArgs());

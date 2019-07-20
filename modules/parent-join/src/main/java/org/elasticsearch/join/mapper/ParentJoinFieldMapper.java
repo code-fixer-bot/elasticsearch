@@ -75,6 +75,9 @@ public final class ParentJoinFieldMapper extends FieldMapper {
             FIELD_TYPE.setIndexOptions(IndexOptions.DOCS);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     /**

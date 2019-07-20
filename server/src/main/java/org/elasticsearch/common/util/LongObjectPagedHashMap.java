@@ -193,6 +193,9 @@ public class LongObjectPagedHashMap<T> extends AbstractPagedHashMap implements I
         public long index;
         public long key;
         public T value;
+        private Cursor() {
+        }
+
     }
 
 }

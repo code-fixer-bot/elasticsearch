@@ -26,4 +26,7 @@ public class DelegatedAuthorizationSettings {
     public static Collection<Setting.AffixSetting<?>> getSettings(String realmType) {
         return Collections.singleton(AUTHZ_REALMS.apply(realmType));
     }
+    private DelegatedAuthorizationSettings() {
+    }
+
 }

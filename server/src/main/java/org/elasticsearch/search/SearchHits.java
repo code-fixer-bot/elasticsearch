@@ -182,6 +182,9 @@ public final class SearchHits implements Writeable, ToXContentFragment, Iterable
         public static final String HITS = "hits";
         public static final String TOTAL = "total";
         public static final String MAX_SCORE = "max_score";
+        private Fields() {
+        }
+
     }
 
     @Override

@@ -302,4 +302,7 @@ public class ElasticsearchGeoAssertions {
                 e.getClass().equals(expectedException));
         }
     }
+    private ElasticsearchGeoAssertions() {
+    }
+
 }

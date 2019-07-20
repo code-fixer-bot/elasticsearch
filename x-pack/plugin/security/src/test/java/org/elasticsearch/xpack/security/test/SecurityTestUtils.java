@@ -89,4 +89,7 @@ public class SecurityTestUtils {
         metaDataBuilder.put(IndexMetaData.builder(indexMetaData).putAlias(aliasMetaData));
         return metaDataBuilder.build();
     }
+    private SecurityTestUtils() {
+    }
+
 }

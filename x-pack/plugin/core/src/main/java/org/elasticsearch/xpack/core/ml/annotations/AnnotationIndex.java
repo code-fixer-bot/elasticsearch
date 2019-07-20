@@ -147,4 +147,7 @@ public class AnnotationIndex {
             .endObject();
         return builder;
     }
+    private AnnotationIndex() {
+    }
+
 }

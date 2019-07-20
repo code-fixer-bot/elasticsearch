@@ -475,4 +475,7 @@ public class RollupJobIdentifierUtils {
             // coverage
         };
     }
+    private RollupJobIdentifierUtils() {
+    }
+
 }

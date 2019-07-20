@@ -38,4 +38,7 @@ public class BenchmarkMain {
         }
         benchmark.run(Arrays.copyOfRange(args, 1, args.length));
     }
+    private BenchmarkMain() {
+    }
+
 }

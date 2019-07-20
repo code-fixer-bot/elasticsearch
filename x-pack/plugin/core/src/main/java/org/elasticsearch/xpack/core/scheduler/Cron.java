@@ -1489,5 +1489,8 @@ public class Cron implements ToXContentFragment {
     private static class ValueSet {
         int value;
         int pos;
+        private ValueSet() {
+        }
+
     }
 }

@@ -212,6 +212,9 @@ public class ObjectParserTests extends ESTestCase {
     public void testDeprecationWarnings() throws IOException {
         class TestStruct {
             public String test;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo");
         TestStruct s = new TestStruct();
@@ -227,6 +230,9 @@ public class ObjectParserTests extends ESTestCase {
         class TestStruct {
             @SuppressWarnings("unused")
             public String test;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo");
         TestStruct s = new TestStruct();
@@ -241,6 +247,9 @@ public class ObjectParserTests extends ESTestCase {
         class TestStruct {
             public int test;
             TestStruct object;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo");
         TestStruct s = new TestStruct();
@@ -538,6 +547,9 @@ public class ObjectParserTests extends ESTestCase {
 
         class TestStruct {
             public String test;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo", true, null);
         objectParser.declareField((i, c, x) -> c.test = i.text(), new ParseField("test"), ObjectParser.ValueType.STRING);
@@ -564,6 +576,9 @@ public class ObjectParserTests extends ESTestCase {
 
         class TestStruct {
             public String test;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo", true, null);
         objectParser.declareField((i, c, x) -> c.test = i.text(), new ParseField("test"), ObjectParser.ValueType.STRING);
@@ -593,6 +608,9 @@ public class ObjectParserTests extends ESTestCase {
         XContentParser parser = createParser(JsonXContent.jsonXContent, bytes);
         class TestStruct {
             public String test;
+            private TestStruct() {
+            }
+
         }
         ObjectParser<TestStruct, Void> objectParser = new ObjectParser<>("foo", true, null);
         objectParser.declareField((i, c, x) -> c.test = i.text(), new ParseField("test"), ObjectParser.ValueType.STRING);

@@ -22,5 +22,8 @@ package org.elasticsearch;
  * This is just a test class
  */
 public class SampleClass {
+    private SampleClass() {
+    }
+
 
 }

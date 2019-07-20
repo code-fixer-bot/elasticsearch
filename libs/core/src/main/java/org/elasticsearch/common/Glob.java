@@ -66,5 +66,8 @@ public class Glob {
             pattern.substring(0, firstIndex).equals(str.substring(0, firstIndex)) &&
             globMatch(pattern.substring(firstIndex), str.substring(firstIndex)));
     }
+    private Glob() {
+    }
+
 
 }

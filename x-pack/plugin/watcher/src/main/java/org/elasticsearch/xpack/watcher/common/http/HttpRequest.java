@@ -341,6 +341,9 @@ public class HttpRequest implements ToXContentObject {
 
             return builder.build();
         }
+        private Parser() {
+        }
+
     }
 
     public static class Builder {

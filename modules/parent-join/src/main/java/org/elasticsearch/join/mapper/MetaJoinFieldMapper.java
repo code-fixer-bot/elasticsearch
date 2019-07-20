@@ -55,6 +55,9 @@ public class MetaJoinFieldMapper extends FieldMapper {
             FIELD_TYPE.setIndexOptions(IndexOptions.NONE);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     static class Builder extends FieldMapper.Builder<Builder, MetaJoinFieldMapper> {

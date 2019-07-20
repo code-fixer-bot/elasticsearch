@@ -230,6 +230,9 @@ public class MultiSearchResponse extends ActionResponse implements Iterable<Mult
     static final class Fields {
         static final String RESPONSES = "responses";
         static final String STATUS = "status";
+        private Fields() {
+        }
+
     }
 
     @Override

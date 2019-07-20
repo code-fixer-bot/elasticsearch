@@ -75,4 +75,7 @@ public class MetricInspectionHelper {
     public static boolean hasValue(InternalDerivative agg) {
         return true;
     }
+    private MetricInspectionHelper() {
+    }
+
 }

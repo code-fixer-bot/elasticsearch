@@ -224,4 +224,7 @@ class MapperMergeValidator {
         }
         return field.substring(0, lastDot);
     }
+    private MapperMergeValidator() {
+    }
+
 }

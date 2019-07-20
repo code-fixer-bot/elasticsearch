@@ -53,6 +53,9 @@ public abstract class BaseGeoShapeFieldMapper extends FieldMapper {
     public static class Names {
         public static final ParseField ORIENTATION = new ParseField("orientation");
         public static final ParseField COERCE = new ParseField("coerce");
+        private Names() {
+        }
+
     }
 
     public static class Defaults {
@@ -60,6 +63,9 @@ public abstract class BaseGeoShapeFieldMapper extends FieldMapper {
         public static final Explicit<Boolean> COERCE = new Explicit<>(false, false);
         public static final Explicit<Boolean> IGNORE_MALFORMED = new Explicit<>(false, false);
         public static final Explicit<Boolean> IGNORE_Z_VALUE = new Explicit<>(true, false);
+        private Defaults() {
+        }
+
     }
 
     public abstract static class Builder<T extends Builder, Y extends BaseGeoShapeFieldMapper>

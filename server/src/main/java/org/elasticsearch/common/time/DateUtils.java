@@ -376,4 +376,7 @@ public class DateUtils {
         Clock millisResolutionClock = Clock.tick(clock, Duration.ofMillis(1));
         return ZonedDateTime.now(millisResolutionClock);
     }
+    private DateUtils() {
+    }
+
 }

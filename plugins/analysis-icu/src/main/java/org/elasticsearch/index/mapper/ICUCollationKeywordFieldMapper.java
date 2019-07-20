@@ -71,6 +71,9 @@ public class ICUCollationKeywordFieldMapper extends FieldMapper {
 
         public static final String NULL_VALUE = null;
         public static final int IGNORE_ABOVE = Integer.MAX_VALUE;
+        private Defaults() {
+        }
+
     }
 
     public static final class CollationFieldType extends StringFieldType {

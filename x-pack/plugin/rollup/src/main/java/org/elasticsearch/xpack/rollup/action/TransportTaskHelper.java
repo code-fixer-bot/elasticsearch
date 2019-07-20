@@ -33,4 +33,7 @@ public class TransportTaskHelper {
             operation.accept(matchingTask);
         }
     }
+    private TransportTaskHelper() {
+    }
+
 }

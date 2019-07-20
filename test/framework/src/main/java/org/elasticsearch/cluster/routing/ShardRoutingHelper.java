@@ -60,4 +60,7 @@ public class ShardRoutingHelper {
         return new ShardRouting(routing.shardId(), routing.currentNodeId(), routing.relocatingNodeId(), routing.primary(), routing.state(),
             recoverySource, routing.unassignedInfo(), routing.allocationId(), routing.getExpectedShardSize());
     }
+    private ShardRoutingHelper() {
+    }
+
 }

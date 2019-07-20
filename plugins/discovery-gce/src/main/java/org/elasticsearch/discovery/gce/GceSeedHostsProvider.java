@@ -60,6 +60,9 @@ public class GceSeedHostsProvider implements SeedHostsProvider {
 
     static final class Status {
         private static final String TERMINATED = "TERMINATED";
+        private Status() {
+        }
+
     }
 
     private final Settings settings;

@@ -49,6 +49,9 @@ public class RootObjectMapper extends ObjectMapper {
                 };
         public static final boolean DATE_DETECTION = true;
         public static final boolean NUMERIC_DETECTION = false;
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends ObjectMapper.Builder<Builder, RootObjectMapper> {

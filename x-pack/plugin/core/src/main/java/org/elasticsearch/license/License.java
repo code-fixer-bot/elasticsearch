@@ -627,6 +627,9 @@ public class License implements ToXContentObject {
 
         public static final String LICENSES = "licenses";
         public static final String LICENSE = "license";
+        private Fields() {
+        }
+
 
     }
 

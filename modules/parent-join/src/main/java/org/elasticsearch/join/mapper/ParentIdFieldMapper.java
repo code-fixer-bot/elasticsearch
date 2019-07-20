@@ -64,6 +64,9 @@ public final class ParentIdFieldMapper extends FieldMapper {
             FIELD_TYPE.setIndexOptions(IndexOptions.DOCS);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     static class Builder extends FieldMapper.Builder<Builder, ParentIdFieldMapper> {

@@ -49,5 +49,8 @@ public final class SecuritySettings {
         }
         return builder.build();
     }
+    private SecuritySettings() {
+    }
+
 
 }

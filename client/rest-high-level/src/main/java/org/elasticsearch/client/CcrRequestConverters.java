@@ -140,5 +140,8 @@ final class CcrRequestConverters {
             .build();
         return new Request(HttpGet.METHOD_NAME, endpoint);
     }
+    private CcrRequestConverters() {
+    }
+
 
 }

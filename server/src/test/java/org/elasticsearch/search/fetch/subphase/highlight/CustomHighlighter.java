@@ -71,5 +71,8 @@ public class CustomHighlighter implements Highlighter {
     private static class CacheEntry {
         private int position;
         private int docId;
+        private CacheEntry() {
+        }
+
     }
 }

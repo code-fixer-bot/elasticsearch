@@ -174,6 +174,9 @@ public class InternalExtendedStats extends InternalStats implements ExtendedStat
         public static final String STD_DEVIATION_BOUNDS_AS_STRING = "std_deviation_bounds_as_string";
         public static final String UPPER = "upper";
         public static final String LOWER = "lower";
+        private Fields() {
+        }
+
 
     }
 

@@ -94,4 +94,7 @@ class ActiveDirectorySIDUtil {
 
         return sb.toString();
     }
+    private ActiveDirectorySIDUtil() {
+    }
+
 }

@@ -46,5 +46,8 @@ public final class Processors {
     public static String urlDecode(String value) {
         return URLDecodeProcessor.apply(value);
     }
+    private Processors() {
+    }
+
 
 }

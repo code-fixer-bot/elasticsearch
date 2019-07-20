@@ -126,6 +126,9 @@ public class SimulatePipelineRequest extends ActionRequest implements ToXContent
         static final String PIPELINE = "pipeline";
         static final String DOCS = "docs";
         static final String SOURCE = "_source";
+        private Fields() {
+        }
+
     }
 
     static class Parsed {

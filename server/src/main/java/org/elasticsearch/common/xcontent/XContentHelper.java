@@ -370,4 +370,7 @@ public class XContentHelper {
         BytesRef br = bytes.toBytesRef();
         return XContentFactory.xContentType(br.bytes, br.offset, br.length);
     }
+    private XContentHelper() {
+    }
+
 }

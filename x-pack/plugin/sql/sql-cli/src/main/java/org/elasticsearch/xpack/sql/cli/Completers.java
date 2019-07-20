@@ -15,5 +15,8 @@ class Completers {
     static final Completer INSTANCE = new AggregateCompleter(
             new ArgumentCompleter(new StringsCompleter("", "EXPLAIN", "SHOW", "SELECT", "SET")),
             new ArgumentCompleter(new StringsCompleter("SHOW", "TABLE", "COLUMNS", "FUNCTIONS")));
+    private Completers() {
+    }
+
 
 }

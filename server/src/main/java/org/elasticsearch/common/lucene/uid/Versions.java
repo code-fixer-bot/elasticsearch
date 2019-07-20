@@ -34,4 +34,7 @@ public final class Versions {
      * i.e., not found in the index and/or found as deleted (with version) in the version map
      */
     public static final long MATCH_DELETED = -4L;
+    private Versions() {
+    }
+
 }

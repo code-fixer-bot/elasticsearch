@@ -156,5 +156,8 @@ public class ClusterStateUpdaters {
         }
         return state;
     }
+    private ClusterStateUpdaters() {
+    }
+
 
 }

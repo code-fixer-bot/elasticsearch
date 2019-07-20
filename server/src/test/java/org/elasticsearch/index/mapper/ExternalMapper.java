@@ -55,6 +55,9 @@ public class ExternalMapper extends FieldMapper {
         public static final String FIELD_BOOL = "bool";
         public static final String FIELD_POINT = "point";
         public static final String FIELD_SHAPE = "shape";
+        private Names() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, ExternalMapper> {

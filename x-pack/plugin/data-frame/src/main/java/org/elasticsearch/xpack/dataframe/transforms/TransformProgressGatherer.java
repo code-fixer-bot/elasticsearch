@@ -75,4 +75,7 @@ public final class TransformProgressGatherer {
     public static Function<SearchResponse, DataFrameTransformProgress> searchResponseToDataFrameTransformProgressFunction() {
         return searchResponse -> new DataFrameTransformProgress(searchResponse.getHits().getTotalHits().value, null);
     }
+    private TransformProgressGatherer() {
+    }
+
 }

@@ -257,6 +257,9 @@ public class Version implements Comparable<Version>, ToXContentFragment {
      */
     private static class DeclaredVersionsHolder {
         static final List<Version> DECLARED_VERSIONS = Collections.unmodifiableList(getDeclaredVersions(Version.class));
+        private DeclaredVersionsHolder() {
+        }
+
     }
 
     /**

@@ -111,6 +111,9 @@ public class RestoreInfo implements ToXContentObject, Streamable {
         static final String TOTAL = "total";
         static final String FAILED = "failed";
         static final String SUCCESSFUL = "successful";
+        private Fields() {
+        }
+
     }
 
     @Override

@@ -116,6 +116,9 @@ public class PipelineAggregationHelperTests extends ESTestCase {
         public int count;
         public double[] docValues;
         public long key;
+        private MockBucket() {
+        }
+
     }
 
     /**

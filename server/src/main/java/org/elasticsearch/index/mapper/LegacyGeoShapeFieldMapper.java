@@ -92,12 +92,18 @@ public class LegacyGeoShapeFieldMapper extends BaseGeoShapeFieldMapper {
             public static final ParseField PRECISION = new ParseField("precision");
             public static final ParseField DISTANCE_ERROR_PCT = new ParseField("distance_error_pct");
             public static final ParseField POINTS_ONLY = new ParseField("points_only");
+            private Names() {
+            }
+
         }
 
         public static class PrefixTrees {
             public static final String LEGACY_QUADTREE = "legacyquadtree";
             public static final String QUADTREE = "quadtree";
             public static final String GEOHASH = "geohash";
+            private PrefixTrees() {
+            }
+
         }
 
         public static class Defaults {
@@ -108,6 +114,9 @@ public class LegacyGeoShapeFieldMapper extends BaseGeoShapeFieldMapper {
             public static final int GEOHASH_TREE_LEVELS = GeoUtils.geoHashLevelsForPrecision(PRECISION);
             public static final boolean POINTS_ONLY = false;
             public static final double DISTANCE_ERROR_PCT = 0.025d;
+            private Defaults() {
+            }
+
         }
 
         public SpatialStrategy strategy = null;

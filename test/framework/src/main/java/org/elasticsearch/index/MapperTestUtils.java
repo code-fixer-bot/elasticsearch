@@ -68,4 +68,7 @@ public class MapperTestUtils {
             mapperRegistry,
             () -> null);
     }
+    private MapperTestUtils() {
+    }
+
 }

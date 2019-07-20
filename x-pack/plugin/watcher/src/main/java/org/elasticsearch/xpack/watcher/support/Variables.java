@@ -46,4 +46,7 @@ public final class Variables {
         ctxModel.put(VARS, ctx.vars());
         return ctxModel;
     }
+    private Variables() {
+    }
+
 }

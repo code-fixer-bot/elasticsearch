@@ -29,4 +29,7 @@ public final class LdapSessionFactorySettings {
         settings.add(USER_DN_TEMPLATES_SETTING);
         return settings;
     }
+    private LdapSessionFactorySettings() {
+    }
+
 }

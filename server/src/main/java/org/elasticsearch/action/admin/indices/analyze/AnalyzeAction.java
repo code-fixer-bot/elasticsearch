@@ -399,6 +399,9 @@ public class AnalyzeAction extends ActionType<AnalyzeAction.Response> {
             static final String TOKENS = "tokens";
 
             static final String DETAIL = "detail";
+            private Fields() {
+            }
+
         }
     }
 

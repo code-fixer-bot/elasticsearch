@@ -91,5 +91,8 @@ public class StoreStats implements Streamable, Writeable, ToXContentFragment {
         static final String STORE = "store";
         static final String SIZE = "size";
         static final String SIZE_IN_BYTES = "size_in_bytes";
+        private Fields() {
+        }
+
     }
 }

@@ -340,4 +340,7 @@ public class XContentFactory {
         }
         return null;
     }
+    private XContentFactory() {
+    }
+
 }

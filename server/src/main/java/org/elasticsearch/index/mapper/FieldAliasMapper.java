@@ -38,6 +38,9 @@ public final class FieldAliasMapper extends Mapper {
 
     public static class Names {
         public static final String PATH = "path";
+        private Names() {
+        }
+
     }
 
     private final String name;

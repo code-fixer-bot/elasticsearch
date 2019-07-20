@@ -18,4 +18,7 @@
  */
 
 class Dummy {
+    private Dummy() {
+    }
+
 }

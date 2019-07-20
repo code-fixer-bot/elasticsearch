@@ -71,4 +71,7 @@ public class RandomCreateIndexGenerator {
             request.alias(randomAlias());
         }
     }
+    private RandomCreateIndexGenerator() {
+    }
+
 }

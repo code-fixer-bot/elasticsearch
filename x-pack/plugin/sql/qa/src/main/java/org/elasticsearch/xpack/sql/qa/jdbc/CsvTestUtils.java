@@ -227,5 +227,8 @@ public final class CsvTestUtils {
         public String query;
         public String earlySchema;
         public String expectedResults;
+        private CsvTestCase() {
+        }
+
     }
 }

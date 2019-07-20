@@ -229,4 +229,7 @@ public class Regex {
         }
         return sb.toString();
     }
+    private Regex() {
+    }
+
 }

@@ -37,4 +37,7 @@ public class VMTestRunner {
                 "tests should only run in a virtual machine because they're destructive.");
         }
     }
+    private VMTestRunner() {
+    }
+
 }

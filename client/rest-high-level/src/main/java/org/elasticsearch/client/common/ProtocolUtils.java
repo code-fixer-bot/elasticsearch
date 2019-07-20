@@ -69,4 +69,7 @@ public final class ProtocolUtils {
             hash += Arrays.hashCode(entry.getValue());
         return hash;
     }
+    private ProtocolUtils() {
+    }
+
 }

@@ -164,4 +164,7 @@ public final class IfConfig {
         flags.append(" index:").append(nic.getIndex());
         return flags.toString();
     }
+    private IfConfig() {
+    }
+
 }

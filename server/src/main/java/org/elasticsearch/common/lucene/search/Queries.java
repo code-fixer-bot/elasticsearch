@@ -190,4 +190,7 @@ public class Queries {
 
         return result < 0 ? 0 : result;
     }
+    private Queries() {
+    }
+
 }

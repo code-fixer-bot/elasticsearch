@@ -86,6 +86,9 @@ public class RangeFieldMapper extends FieldMapper {
 
     public static class Defaults {
         public static final Explicit<Boolean> COERCE = new Explicit<>(true, false);
+        private Defaults() {
+        }
+
     }
 
     // this is private since it has a different default

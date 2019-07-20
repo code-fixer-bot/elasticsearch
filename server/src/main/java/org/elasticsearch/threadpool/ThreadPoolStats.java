@@ -174,6 +174,9 @@ public class ThreadPoolStats implements Writeable, ToXContentFragment, Iterable<
         static final String REJECTED = "rejected";
         static final String LARGEST = "largest";
         static final String COMPLETED = "completed";
+        private Fields() {
+        }
+
     }
 
     @Override

@@ -156,6 +156,9 @@ public class SnapshotIndexShardStatus extends BroadcastShardResponse implements 
         static final String STAGE = "stage";
         static final String REASON = "reason";
         static final String NODE = "node";
+        private Fields() {
+        }
+
     }
 
     @Override

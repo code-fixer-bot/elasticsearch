@@ -70,6 +70,9 @@ public class FieldNamesFieldMapper extends MetadataFieldMapper {
             FIELD_TYPE.setName(NAME);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     private static class Builder extends MetadataFieldMapper.Builder<Builder, FieldNamesFieldMapper> {

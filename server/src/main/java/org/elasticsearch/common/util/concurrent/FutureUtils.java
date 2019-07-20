@@ -103,4 +103,7 @@ public class FutureUtils {
         }
         return new UncategorizedExecutionException("Failed execution", root);
     }
+    private FutureUtils() {
+    }
+
 }

@@ -111,6 +111,9 @@ public class CertificateGenerateTool extends EnvironmentAwareCommand {
 
             PARSER.declareObjectArray(List::addAll, instanceParser, new ParseField("instances"));
         }
+        private InputFileParser() {
+        }
+
     }
 
     private final OptionSpec<String> outputPathSpec;

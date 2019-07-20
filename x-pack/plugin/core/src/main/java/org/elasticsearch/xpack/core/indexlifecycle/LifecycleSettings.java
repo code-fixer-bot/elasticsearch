@@ -27,4 +27,7 @@ public class LifecycleSettings {
 
     public static final Setting<Boolean> SLM_HISTORY_INDEX_ENABLED_SETTING = Setting.boolSetting(SLM_HISTORY_INDEX_ENABLED, true,
         Setting.Property.NodeScope);
+    private LifecycleSettings() {
+    }
+
 }

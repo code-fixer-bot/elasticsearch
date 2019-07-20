@@ -101,4 +101,7 @@ public class SharedSignificantTermsTestMethods {
                 .setSource(TEXT_FIELD, "0", CLASS_FIELD, "0"));
         testCase.indexRandom(true, false, indexRequestBuilderList);
     }
+    private SharedSignificantTermsTestMethods() {
+    }
+
 }

@@ -128,4 +128,7 @@ public class InternalSettingsPreparer {
             output.put(Node.NODE_NAME_SETTING.getKey(), defaultNodeName.get());
         }
     }
+    private InternalSettingsPreparer() {
+    }
+
 }

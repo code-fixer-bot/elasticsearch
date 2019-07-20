@@ -87,6 +87,9 @@ public final class Validation {
                 null :
                 new Error("passwords must be at least [" + MIN_PASSWD_LENGTH + "] characters long");
         }
+        private Users() {
+        }
+
 
     }
 
@@ -105,6 +108,9 @@ public final class Validation {
             }
             return null;
         }
+        private Roles() {
+        }
+
     }
 
     public static class Error {

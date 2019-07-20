@@ -2020,6 +2020,9 @@ public class StrictISODateTimeFormat {
             }
             return ze;
         }
+        private Constants() {
+        }
+
 
     }
 

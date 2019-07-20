@@ -65,5 +65,8 @@ final class Launchers {
     static Path createTempDirectory(final String prefix, final FileAttribute<?>... attrs) throws IOException {
         return Files.createTempDirectory(prefix, attrs);
     }
+    private Launchers() {
+    }
+
 
 }

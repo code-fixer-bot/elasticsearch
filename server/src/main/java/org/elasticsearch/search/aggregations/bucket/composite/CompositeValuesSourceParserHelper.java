@@ -129,4 +129,7 @@ public class CompositeValuesSourceParserHelper {
         builder.endObject();
         return builder;
     }
+    private CompositeValuesSourceParserHelper() {
+    }
+
 }

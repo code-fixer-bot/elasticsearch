@@ -33,5 +33,8 @@ public class WatchStoreUtils {
 
         return aliasOrIndex.getIndices().get(0);
     }
+    private WatchStoreUtils() {
+    }
+
 
 }

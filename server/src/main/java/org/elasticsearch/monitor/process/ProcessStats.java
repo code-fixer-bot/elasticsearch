@@ -97,6 +97,9 @@ public class ProcessStats implements Writeable, ToXContentFragment {
         static final String MEM = "mem";
         static final String TOTAL_VIRTUAL = "total_virtual";
         static final String TOTAL_VIRTUAL_IN_BYTES = "total_virtual_in_bytes";
+        private Fields() {
+        }
+
     }
 
     @Override

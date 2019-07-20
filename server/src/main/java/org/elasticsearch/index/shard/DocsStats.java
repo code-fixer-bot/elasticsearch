@@ -113,5 +113,8 @@ public class DocsStats implements Streamable, Writeable, ToXContentFragment {
         static final String DOCS = "docs";
         static final String COUNT = "count";
         static final String DELETED = "deleted";
+        private Fields() {
+        }
+
     }
 }

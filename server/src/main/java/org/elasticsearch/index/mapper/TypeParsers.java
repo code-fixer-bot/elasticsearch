@@ -350,4 +350,7 @@ public class TypeParsers {
         }
         return similarityProvider;
     }
+    private TypeParsers() {
+    }
+
 }

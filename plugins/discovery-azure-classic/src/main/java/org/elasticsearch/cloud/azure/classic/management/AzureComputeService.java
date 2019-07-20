@@ -58,6 +58,9 @@ public interface AzureComputeService {
                     throw new IllegalArgumentException(e);
                 }
             }, Property.NodeScope);
+        private Management() {
+        }
+
     }
 
     final class Discovery {
@@ -72,6 +75,9 @@ public interface AzureComputeService {
             Property.NodeScope);
         public static final Setting<Deployment> DEPLOYMENT_SLOT_SETTING = new Setting<>("discovery.azure.deployment.slot",
             Deployment.PRODUCTION.name(), Deployment::fromString, Property.NodeScope);
+        private Discovery() {
+        }
+
     }
 
     HostedServiceGetDetailedResponse getServiceDetails();

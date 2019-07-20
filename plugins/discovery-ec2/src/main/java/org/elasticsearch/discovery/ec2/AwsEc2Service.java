@@ -38,6 +38,9 @@ interface AwsEc2Service extends Closeable {
         public static final String PRIVATE_DNS = "private_dns";
         public static final String PUBLIC_DNS = "public_dns";
         public static final String TAG_PREFIX = "tag:";
+        private HostType() {
+        }
+
     }
 
     /**

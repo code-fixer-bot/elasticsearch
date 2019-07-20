@@ -37,4 +37,7 @@ public class TransportMasterNodeActionUtils {
         // TODO: pass through task here?
         masterNodeAction.masterOperation(null, request, clusterState, actionListener);
     }
+    private TransportMasterNodeActionUtils() {
+    }
+
 }

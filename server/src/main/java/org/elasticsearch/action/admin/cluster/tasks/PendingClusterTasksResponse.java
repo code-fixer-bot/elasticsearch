@@ -97,6 +97,9 @@ public class PendingClusterTasksResponse extends ActionResponse implements Itera
         static final String SOURCE = "source";
         static final String TIME_IN_QUEUE_MILLIS = "time_in_queue_millis";
         static final String TIME_IN_QUEUE = "time_in_queue";
+        private Fields() {
+        }
+
 
     }
 

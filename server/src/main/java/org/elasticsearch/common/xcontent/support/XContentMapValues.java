@@ -481,4 +481,7 @@ public class XContentMapValues {
             return Strings.splitStringByCommaToArray(node.toString());
         }
     }
+    private XContentMapValues() {
+    }
+
 }

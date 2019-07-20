@@ -108,4 +108,7 @@ public class Cleanup {
             sh.runIgnoreExitCode("dpkg --purge elasticsearch elasticsearch-oss");
         }
     }
+    private Cleanup() {
+    }
+
 }

@@ -355,4 +355,7 @@ public class MovingFunctions {
         Arrays.fill(predictions, Double.NaN);
         return predictions;
     }
+    private MovingFunctions() {
+    }
+
 }

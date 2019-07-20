@@ -84,4 +84,7 @@ public class LicenseVerifier {
         }
         return verifyLicense(license, publicKeyBytes);
     }
+    private LicenseVerifier() {
+    }
+
 }

@@ -55,6 +55,9 @@ public class ThreadPoolInfo implements Writeable, Iterable<ThreadPool.Info>, ToX
 
     static final class Fields {
         static final String THREAD_POOL = "thread_pool";
+        private Fields() {
+        }
+
     }
 
     @Override

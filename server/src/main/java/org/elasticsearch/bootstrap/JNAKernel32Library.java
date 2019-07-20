@@ -51,6 +51,9 @@ final class JNAKernel32Library {
     // Native library instance must be kept around for the same reason.
     private static final class Holder {
         private static final JNAKernel32Library instance = new JNAKernel32Library();
+        private Holder() {
+        }
+
     }
 
     private JNAKernel32Library() {

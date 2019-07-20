@@ -60,6 +60,9 @@ public class IpFieldMapper extends FieldMapper {
 
     public static class Defaults {
         public static final Explicit<Boolean> IGNORE_MALFORMED = new Explicit<>(false, false);
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, IpFieldMapper> {

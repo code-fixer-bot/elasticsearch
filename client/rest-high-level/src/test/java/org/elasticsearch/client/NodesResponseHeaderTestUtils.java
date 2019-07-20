@@ -45,5 +45,8 @@ public class NodesResponseHeaderTestUtils {
         builder.endObject();
         builder.field("cluster_name", clusterName);
     }
+    private NodesResponseHeaderTestUtils() {
+    }
+
 
 }

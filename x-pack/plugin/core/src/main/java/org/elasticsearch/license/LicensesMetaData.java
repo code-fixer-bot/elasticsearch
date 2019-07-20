@@ -216,5 +216,8 @@ public class LicensesMetaData extends AbstractNamedDiffable<MetaData.Custom> imp
     private static final class Fields {
         private static final String LICENSE = "license";
         private static final String TRIAL_LICENSE = "trial_license";
+        private Fields() {
+        }
+
     }
 }

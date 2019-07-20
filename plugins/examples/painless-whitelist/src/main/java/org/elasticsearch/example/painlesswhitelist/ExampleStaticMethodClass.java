@@ -23,4 +23,7 @@ public class ExampleStaticMethodClass {
     public static int exampleAddInts(int x, int y) {
         return x + y;
     }
+    private ExampleStaticMethodClass() {
+    }
+
 }

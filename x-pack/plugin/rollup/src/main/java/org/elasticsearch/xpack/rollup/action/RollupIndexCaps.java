@@ -106,6 +106,9 @@ public class RollupIndexCaps implements Writeable, ToXContentFragment {
                 }
             }, ROLLUP_FIELD, ObjectParser.ValueType.OBJECT);
         }
+        private MetaParser() {
+        }
+
     }
 
 

@@ -390,5 +390,8 @@ public class IndicesShardStoresResponse extends ActionResponse implements ToXCon
         static final String ALLOCATION_ID = "allocation_id";
         static final String STORE_EXCEPTION = "store_exception";
         static final String ALLOCATED = "allocation";
+        private Fields() {
+        }
+
     }
 }

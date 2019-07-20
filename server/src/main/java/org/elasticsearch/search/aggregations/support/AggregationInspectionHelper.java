@@ -238,5 +238,8 @@ public class AggregationInspectionHelper {
     public static boolean hasValue(InternalPercentilesBucket agg) {
         return StreamSupport.stream(agg.spliterator(), false).allMatch(p -> Double.isNaN(p.getValue())) == false;
     }
+    private AggregationInspectionHelper() {
+    }
+
 
 }

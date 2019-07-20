@@ -120,4 +120,7 @@ public class Annotations {
 
         return found;
     }
+    private Annotations() {
+    }
+
 }

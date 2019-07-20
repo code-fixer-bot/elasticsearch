@@ -38,4 +38,7 @@ public class RemoteHostHeader {
     public static void putRestRemoteAddress(ThreadContext threadContext, SocketAddress address) {
         threadContext.putTransient(KEY, address);
     }
+    private RemoteHostHeader() {
+    }
+
 }

@@ -67,6 +67,9 @@ public class FreqTermsEnumTests extends ESTestCase {
     static class FreqHolder {
         int docFreq;
         long totalTermFreq;
+        private FreqHolder() {
+        }
+
     }
 
 

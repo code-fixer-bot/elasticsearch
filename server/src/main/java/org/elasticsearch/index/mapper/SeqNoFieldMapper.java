@@ -102,6 +102,9 @@ public class SeqNoFieldMapper extends MetadataFieldMapper {
             FIELD_TYPE.setHasDocValues(true);
             FIELD_TYPE.freeze();
         }
+        private SeqNoDefaults() {
+        }
+
     }
 
     public static class Builder extends MetadataFieldMapper.Builder<Builder, SeqNoFieldMapper> {

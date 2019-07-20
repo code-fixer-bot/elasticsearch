@@ -83,5 +83,8 @@ public class LenientCompare {
             return null;
         }
     }
+    private LenientCompare() {
+    }
+
 
 }

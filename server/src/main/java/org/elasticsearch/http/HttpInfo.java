@@ -73,6 +73,9 @@ public class HttpInfo implements Writeable, ToXContentFragment {
         static final String PUBLISH_ADDRESS = "publish_address";
         static final String MAX_CONTENT_LENGTH = "max_content_length";
         static final String MAX_CONTENT_LENGTH_IN_BYTES = "max_content_length_in_bytes";
+        private Fields() {
+        }
+
     }
 
     @Override

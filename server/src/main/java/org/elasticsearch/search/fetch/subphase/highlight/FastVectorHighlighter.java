@@ -250,10 +250,16 @@ public class FastVectorHighlighter implements Highlighter {
         public FragmentsBuilder fragmentsBuilder;
         public FieldQuery noFieldMatchFieldQuery;
         public FieldQuery fieldMatchFieldQuery;
+        private FieldHighlightEntry() {
+        }
+
     }
 
     private class HighlighterEntry {
         public org.apache.lucene.search.vectorhighlight.FastVectorHighlighter fvh;
         public Map<MappedFieldType, FieldHighlightEntry> fields = new HashMap<>();
+        private HighlighterEntry() {
+        }
+
     }
 }

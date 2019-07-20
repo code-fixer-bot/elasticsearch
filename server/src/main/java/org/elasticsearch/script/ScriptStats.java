@@ -78,5 +78,8 @@ public class ScriptStats implements Writeable, ToXContentFragment {
         static final String COMPILATIONS = "compilations";
         static final String CACHE_EVICTIONS = "cache_evictions";
         static final String COMPILATION_LIMIT_TRIGGERED = "compilation_limit_triggered";
+        private Fields() {
+        }
+
     }
 }

@@ -181,6 +181,9 @@ public class InternalStats extends InternalNumericMetricsAggregation.MultiValue 
         public static final String AVG_AS_STRING = "avg_as_string";
         public static final String SUM = "sum";
         public static final String SUM_AS_STRING = "sum_as_string";
+        private Fields() {
+        }
+
     }
 
     @Override

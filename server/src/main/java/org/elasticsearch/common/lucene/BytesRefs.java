@@ -61,4 +61,7 @@ public class BytesRefs {
         spare.copyChars(value.toString());
         return spare.get();
     }
+    private BytesRefs() {
+    }
+
 }

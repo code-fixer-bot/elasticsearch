@@ -88,4 +88,7 @@ public class RandomGeoGenerator {
             return -180 + off;
         }
     }
+    private RandomGeoGenerator() {
+    }
+
 }

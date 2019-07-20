@@ -28,4 +28,7 @@ public class LifecyclePolicyTestsUtils {
     public static LifecyclePolicy randomTimeseriesLifecyclePolicy(String policyName) {
         return LifecyclePolicyTests.randomTimeseriesLifecyclePolicy(policyName);
     }
+    private LifecyclePolicyTestsUtils() {
+    }
+
 }

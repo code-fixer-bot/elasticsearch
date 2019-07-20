@@ -53,4 +53,7 @@ public class ReflectionUtils {
             return className;
         }
     }
+    private ReflectionUtils() {
+    }
+
 }

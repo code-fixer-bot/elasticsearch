@@ -61,6 +61,9 @@ public class GeoPointFieldMapper extends FieldMapper implements ArrayValueMapper
         public static final String IGNORE_MALFORMED = "ignore_malformed";
         public static final ParseField IGNORE_Z_VALUE = new ParseField("ignore_z_value");
         public static final String NULL_VALUE = "null_value";
+        private Names() {
+        }
+
     }
 
     public static class Defaults {
@@ -74,6 +77,9 @@ public class GeoPointFieldMapper extends FieldMapper implements ArrayValueMapper
             FIELD_TYPE.setDimensions(2, Integer.BYTES);
             FIELD_TYPE.freeze();
         }
+        private Defaults() {
+        }
+
     }
 
     public static class Builder extends FieldMapper.Builder<Builder, GeoPointFieldMapper> {

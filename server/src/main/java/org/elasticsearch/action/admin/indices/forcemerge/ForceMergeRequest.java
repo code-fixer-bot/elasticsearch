@@ -43,6 +43,9 @@ public class ForceMergeRequest extends BroadcastRequest<ForceMergeRequest> {
         public static final int MAX_NUM_SEGMENTS = -1;
         public static final boolean ONLY_EXPUNGE_DELETES = false;
         public static final boolean FLUSH = true;
+        private Defaults() {
+        }
+
     }
     
     private int maxNumSegments = Defaults.MAX_NUM_SEGMENTS;

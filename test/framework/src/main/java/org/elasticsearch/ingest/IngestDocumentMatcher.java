@@ -77,4 +77,7 @@ public class IngestDocumentMatcher {
             return Objects.deepEquals(a, b);
         }
     }
+    private IngestDocumentMatcher() {
+    }
+
 }

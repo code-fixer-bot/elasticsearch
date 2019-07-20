@@ -60,6 +60,9 @@ public class HttpStats implements Writeable, ToXContentFragment {
         static final String HTTP = "http";
         static final String CURRENT_OPEN = "current_open";
         static final String TOTAL_OPENED = "total_opened";
+        private Fields() {
+        }
+
     }
 
     @Override

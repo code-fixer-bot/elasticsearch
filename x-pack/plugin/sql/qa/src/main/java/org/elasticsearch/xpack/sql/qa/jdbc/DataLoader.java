@@ -329,4 +329,7 @@ public class DataLoader {
     public static InputStream readFromJarUrl(URL source) throws IOException {
         return source.openStream();
     }
+    private DataLoader() {
+    }
+
 }

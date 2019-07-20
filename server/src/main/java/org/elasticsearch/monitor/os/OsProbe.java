@@ -544,6 +544,9 @@ public class OsProbe {
 
     private static class OsProbeHolder {
         private static final OsProbe INSTANCE = new OsProbe();
+        private OsProbeHolder() {
+        }
+
     }
 
     public static OsProbe getInstance() {

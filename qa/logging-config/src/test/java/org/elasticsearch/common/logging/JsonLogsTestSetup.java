@@ -27,4 +27,7 @@ public class JsonLogsTestSetup {
             initialized = true;
         }
     }
+    private JsonLogsTestSetup() {
+    }
+
 }

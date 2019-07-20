@@ -73,6 +73,9 @@ public final class HighlightUtils {
     public static class Encoders {
         public static final Encoder DEFAULT = new DefaultEncoder();
         public static final Encoder HTML = new SimpleHTMLEncoder();
+        private Encoders() {
+        }
+
     }
     
 }

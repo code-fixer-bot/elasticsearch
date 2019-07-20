@@ -152,4 +152,7 @@ class PluginSecurity {
         }
         return Collections.list(actualPermissions.elements()).stream().map(PluginSecurity::formatPermission).collect(Collectors.toSet());
     }
+    private PluginSecurity() {
+    }
+
 }

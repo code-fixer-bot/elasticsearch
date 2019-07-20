@@ -149,5 +149,8 @@ public class ClusterAlertsUtil {
 
         return blacklist;
     }
+    private ClusterAlertsUtil() {
+    }
+
 
 }

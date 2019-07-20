@@ -55,5 +55,8 @@ final class TempDirectory {
         }
         Launchers.outPrintln(path.toString());
     }
+    private TempDirectory() {
+    }
+
 
 }

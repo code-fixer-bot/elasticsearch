@@ -47,4 +47,7 @@ public class ExceptionsHelper {
         }
         return first;
     }
+    private ExceptionsHelper() {
+    }
+
 }
